@@ -1,0 +1,1752 @@
+[
+  {
+    "id": "43c98ce8-a07a-4dc2-80f6-c1b2a2485f06",
+    "text": "Worry about things",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 1,
+    "num": 1,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "d50a597f-632b-4f7b-89e6-6d85b50fd1c9",
+    "text": "Make friends easily",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 1,
+    "num": 2,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "888dd864-7449-4e96-8d5c-7a439603ea91",
+    "text": "Have a vivid imagination",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 1,
+    "num": 3,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "ce2fbbf8-7a97-4199-bda5-117e4ecdf3b6",
+    "text": "Trust others",
+    "keyed": "plus",
+    "domain": "A",
+    "facet": 1,
+    "num": 4,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "c7f53c3c-2e77-432f-bb71-7470b67d3aa9",
+    "text": "Complete tasks successfully",
+    "keyed": "plus",
+    "domain": "C",
+    "facet": 1,
+    "num": 5,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "48ad12ce-470e-4339-90ac-ea8c43a0103e",
+    "text": "Get angry easily",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 2,
+    "num": 6,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "458f3957-2359-4077-ade1-34525d633063",
+    "text": "Love large parties",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 2,
+    "num": 7,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "58d571e5-d725-4cf8-a438-32c16ee28eb6",
+    "text": "Believe in the importance of art",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 2,
+    "num": 8,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "0cf79e27-e702-45c2-9471-04ac96b58e0e",
+    "text": "Use others for my own ends",
+    "keyed": "minus",
+    "domain": "A",
+    "facet": 2,
+    "num": 9,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 5,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 4,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 2,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 1,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "cda1ca17-b599-4561-a6cd-ff9d36062d27",
+    "text": "Like to tidy up",
+    "keyed": "plus",
+    "domain": "C",
+    "facet": 2,
+    "num": 10,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "5e8550d7-b8ef-4905-950a-f81d735d39e2",
+    "text": "Often feel blue",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 3,
+    "num": 11,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "8af754f2-68e9-48f3-8c5d-2e6633d4472c",
+    "text": "Take charge",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 3,
+    "num": 12,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "0727def6-3d18-4221-bf38-86b58f9f3eed",
+    "text": "Experience my emotions intensely",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 3,
+    "num": 13,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "ccf3a5c8-fb50-4bd4-8e7a-22af3d657279",
+    "text": "Love to help others",
+    "keyed": "plus",
+    "domain": "A",
+    "facet": 3,
+    "num": 14,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "73d84e5d-cbf5-47f0-b8cb-4d2159a52e32",
+    "text": "Keep my promises",
+    "keyed": "plus",
+    "domain": "C",
+    "facet": 3,
+    "num": 15,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "b2d9ef74-73f5-4ea8-b00c-7aaca15937df",
+    "text": "Find it difficult to approach others",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 4,
+    "num": 16,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "48a761ef-438e-409b-ae59-ea2ce8f84414",
+    "text": "Am always busy",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 4,
+    "num": 17,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "cae55842-8957-4e3b-83b3-ceff98fb9dcf",
+    "text": "Prefer variety to routine",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 4,
+    "num": 18,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "e2028ad3-b128-4f76-be57-398bfe2aff22",
+    "text": "Love a good fight",
+    "keyed": "minus",
+    "domain": "A",
+    "facet": 4,
+    "num": 19,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 5,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 4,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 2,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 1,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "b7fc949b-02b6-4cb9-a3e2-dbb3d824b55f",
+    "text": "Work hard",
+    "keyed": "plus",
+    "domain": "C",
+    "facet": 4,
+    "num": 20,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "481efd08-c810-43b1-a952-f8ac9052f96b",
+    "text": "Go on binges",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 5,
+    "num": 21,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "987efee2-899f-4a65-b9b5-1589ef0460d7",
+    "text": "Love excitement",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 5,
+    "num": 22,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "e1e804c7-4a1d-498f-8610-f95147af9d1d",
+    "text": "Love to read challenging material",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 5,
+    "num": 23,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "71029381-3908-4c68-91e1-e41fb45542a2",
+    "text": "Believe that I am better than others",
+    "keyed": "minus",
+    "domain": "A",
+    "facet": 5,
+    "num": 24,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 5,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 4,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 2,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 1,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "f6076eea-56ae-4b46-97f1-5f94a7676c96",
+    "text": "Am always prepared",
+    "keyed": "plus",
+    "domain": "C",
+    "facet": 5,
+    "num": 25,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "2f519935-92e8-48ad-9746-4a0f8b38466a",
+    "text": "Panic easily",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 6,
+    "num": 26,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "899c3f66-51d0-46ea-963a-6fc36d3b3cb9",
+    "text": "Radiate joy",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 6,
+    "num": 27,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "79186f48-e7fa-4df4-b74b-b0627ee244e1",
+    "text": "Tend to vote for liberal political candidates",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 6,
+    "num": 28,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "fd50e1ca-d9e0-4037-a7a1-a191d4db2d96",
+    "text": "Sympathize with the homeless",
+    "keyed": "plus",
+    "domain": "A",
+    "facet": 6,
+    "num": 29,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "bd9eec0a-b68b-472c-8803-7db29c308cdb",
+    "text": "Jump into things without thinking",
+    "keyed": "minus",
+    "domain": "C",
+    "facet": 6,
+    "num": 30,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 5,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 4,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 2,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 1,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "7f92ab2c-265c-4b84-8c74-09f9bb9d41a7",
+    "text": "Fear for the worst",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 1,
+    "num": 31,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "af55f014-788c-4b6e-92c4-b2b59dc8a28d",
+    "text": "Feel comfortable around people",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 1,
+    "num": 32,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "08ff6dca-02a5-4aeb-aaa4-2ecf2526f143",
+    "text": "Enjoy wild flights of fantasy",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 1,
+    "num": 33,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "6f66cdc0-9044-457b-b40d-501ecae15ee7",
+    "text": "Believe that others have good intentions",
+    "keyed": "plus",
+    "domain": "A",
+    "facet": 1,
+    "num": 34,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "f110fc66-2e9e-413c-920b-19f05e63d7ac",
+    "text": "Excel in what I do",
+    "keyed": "plus",
+    "domain": "C",
+    "facet": 1,
+    "num": 35,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "7dab2a37-8635-4fc7-86b7-0abf13c183c9",
+    "text": "Get irritated easily",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 2,
+    "num": 36,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "28ab59a0-e7cd-4fce-94e3-bba2ecc023b6",
+    "text": "Talk to a lot of different people at parties",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 2,
+    "num": 37,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "b5919f2f-cded-4745-a9ce-c02703cee807",
+    "text": "See beauty in things that others might not notice",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 2,
+    "num": 38,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "5a5fa975-d024-4ac8-8845-2823f957c21b",
+    "text": "Cheat to get ahead",
+    "keyed": "minus",
+    "domain": "A",
+    "facet": 2,
+    "num": 39,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 5,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 4,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 2,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 1,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "adf33f9f-45bd-43e3-af25-4c491176d97f",
+    "text": "Often forget to put things back in their proper place",
+    "keyed": "minus",
+    "domain": "C",
+    "facet": 2,
+    "num": 40,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 5,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 4,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 2,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 1,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "f0a14e16-d726-47e9-a2c1-647fd3d7d52e",
+    "text": "Dislike myself",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 3,
+    "num": 41,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "0b38e3d3-c15c-454c-b034-f4eb7ae1580a",
+    "text": "Try to lead others",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 3,
+    "num": 42,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "5631b856-ff34-4f76-a0cd-edc7104c3bfa",
+    "text": "Feel others' emotions",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 3,
+    "num": 43,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "ada867af-4db1-4e3d-a604-2b695c1806e5",
+    "text": "Am concerned about others",
+    "keyed": "plus",
+    "domain": "A",
+    "facet": 3,
+    "num": 44,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "c55e3958-00c4-4fc3-9118-47d8f31bfde1",
+    "text": "Tell the truth",
+    "keyed": "plus",
+    "domain": "C",
+    "facet": 3,
+    "num": 45,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "acd8fadc-5399-4a67-b5ff-9d1ada049c01",
+    "text": "Am afraid to draw attention to myself",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 4,
+    "num": 46,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "d07b6c67-0d02-4948-a997-bb84ac234cd8",
+    "text": "Am always on the go",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 4,
+    "num": 47,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "33b81fd0-7e32-4cd8-a13a-d5f5f754f998",
+    "text": "Prefer to stick with things that I know",
+    "keyed": "minus",
+    "domain": "O",
+    "facet": 4,
+    "num": 48,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 5,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 4,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 2,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 1,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "d9a9a180-29c9-4ec5-8621-2256d411def7",
+    "text": "Yell at people",
+    "keyed": "minus",
+    "domain": "A",
+    "facet": 4,
+    "num": 49,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 5,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 4,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 2,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 1,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "f12c3d9d-1d12-4aa6-ad2e-009cd0651cbb",
+    "text": "Do more than what's expected of me",
+    "keyed": "plus",
+    "domain": "C",
+    "facet": 4,
+    "num": 50,
+    "choices": [
+      {
+        "text": "Very Inaccurate",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "Moderately Inaccurate",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "Neither Accurate Nor Inaccurate",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "Moderately Accurate",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "Very Accurate",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  }
+]

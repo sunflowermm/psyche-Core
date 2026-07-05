@@ -1,0 +1,9 @@
+# psyche-Core 运行时配置（首次启动从 core/psyche-Core/default/ 复制）
+
+defaultLang: zh
+sessionTtlMinutes: 30
+
+enabledAssessments: []
+
+saveHistory: true
+renderResults: true

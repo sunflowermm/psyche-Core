@@ -1,0 +1,1752 @@
+[
+  {
+    "id": "43c98ce8-a07a-4dc2-80f6-c1b2a2485f06",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 1,
+    "num": 1,
+    "text": "我容易为各种事情感到担忧",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "d50a597f-632b-4f7b-89e6-6d85b50fd1c9",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 1,
+    "num": 2,
+    "text": "我能轻松与各种人成为朋友",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "888dd864-7449-4e96-8d5c-7a439603ea91",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 1,
+    "num": 3,
+    "text": "我的想象力丰富生动",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "ce2fbbf8-7a97-4199-bda5-117e4ecdf3b6",
+    "keyed": "plus",
+    "domain": "A",
+    "facet": 1,
+    "num": 4,
+    "text": "我通常愿意信任他人",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "c7f53c3c-2e77-432f-bb71-7470b67d3aa9",
+    "keyed": "plus",
+    "domain": "C",
+    "facet": 1,
+    "num": 5,
+    "text": "我往往能成功完成承担的任务",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "48ad12ce-470e-4339-90ac-ea8c43a0103e",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 2,
+    "num": 6,
+    "text": "我容易生气或烦躁",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "458f3957-2359-4077-ade1-34525d633063",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 2,
+    "num": 7,
+    "text": "我喜欢大型聚会和热闹场合",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "58d571e5-d725-4cf8-a438-32c16ee28eb6",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 2,
+    "num": 8,
+    "text": "我认为艺术与文化非常重要",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "0cf79e27-e702-45c2-9471-04ac96b58e0e",
+    "keyed": "minus",
+    "domain": "A",
+    "facet": 2,
+    "num": 9,
+    "text": "我会利用他人来达成自己的目的",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "cda1ca17-b599-4561-a6cd-ff9d36062d27",
+    "keyed": "plus",
+    "domain": "C",
+    "facet": 2,
+    "num": 10,
+    "text": "我喜欢把事物整理得井井有条",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "5e8550d7-b8ef-4905-950a-f81d735d39e2",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 3,
+    "num": 11,
+    "text": "我经常感到情绪低落",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "8af754f2-68e9-48f3-8c5d-2e6633d4472c",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 3,
+    "num": 12,
+    "text": "我习惯在群体中主动承担主导角色",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "0727def6-3d18-4221-bf38-86b58f9f3eed",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 3,
+    "num": 13,
+    "text": "我的情绪体验通常很强烈",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "ccf3a5c8-fb50-4bd4-8e7a-22af3d657279",
+    "keyed": "plus",
+    "domain": "A",
+    "facet": 3,
+    "num": 14,
+    "text": "我乐于向他人提供帮助",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "73d84e5d-cbf5-47f0-b8cb-4d2159a52e32",
+    "keyed": "plus",
+    "domain": "C",
+    "facet": 3,
+    "num": 15,
+    "text": "我一般会信守承诺",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "b2d9ef74-73f5-4ea8-b00c-7aaca15937df",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 4,
+    "num": 16,
+    "text": "我觉得主动接近陌生人比较困难",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "48a761ef-438e-409b-ae59-ea2ce8f84414",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 4,
+    "num": 17,
+    "text": "我总是处于忙碌状态",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "cae55842-8957-4e3b-83b3-ceff98fb9dcf",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 4,
+    "num": 18,
+    "text": "相比固定流程，我更喜欢变化与新鲜感",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "e2028ad3-b128-4f76-be57-398bfe2aff22",
+    "keyed": "minus",
+    "domain": "A",
+    "facet": 4,
+    "num": 19,
+    "text": "我不排斥甚至享受观点交锋",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "b7fc949b-02b6-4cb9-a3e2-dbb3d824b55f",
+    "keyed": "plus",
+    "domain": "C",
+    "facet": 4,
+    "num": 20,
+    "text": "我工作勤奋、投入度高",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "481efd08-c810-43b1-a952-f8ac9052f96b",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 5,
+    "num": 21,
+    "text": "我有时会放纵自己（如饮食、娱乐等）",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "987efee2-899f-4a65-b9b5-1589ef0460d7",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 5,
+    "num": 22,
+    "text": "我渴望刺激与新鲜体验",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "e1e804c7-4a1d-498f-8610-f95147af9d1d",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 5,
+    "num": 23,
+    "text": "我喜欢阅读有挑战性的材料",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "71029381-3908-4c68-91e1-e41fb45542a2",
+    "keyed": "minus",
+    "domain": "A",
+    "facet": 5,
+    "num": 24,
+    "text": "我认为自己比大多数人更优秀",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "f6076eea-56ae-4b46-97f1-5f94a7676c96",
+    "keyed": "plus",
+    "domain": "C",
+    "facet": 5,
+    "num": 25,
+    "text": "我做事前通常会充分准备",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "2f519935-92e8-48ad-9746-4a0f8b38466a",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 6,
+    "num": 26,
+    "text": "我容易在压力下陷入恐慌",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "899c3f66-51d0-46ea-963a-6fc36d3b3cb9",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 6,
+    "num": 27,
+    "text": "我时常展现出快乐与感染力",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "79186f48-e7fa-4df4-b74b-b0627ee244e1",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 6,
+    "num": 28,
+    "text": "我倾向于支持偏自由派的政治立场",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "fd50e1ca-d9e0-4037-a7a1-a191d4db2d96",
+    "keyed": "plus",
+    "domain": "A",
+    "facet": 6,
+    "num": 29,
+    "text": "我对无家可归者等弱势群体抱有同情",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "bd9eec0a-b68b-472c-8803-7db29c308cdb",
+    "keyed": "minus",
+    "domain": "C",
+    "facet": 6,
+    "num": 30,
+    "text": "我倾向于不经深思就立即行动",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "7f92ab2c-265c-4b84-8c74-09f9bb9d41a7",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 1,
+    "num": 31,
+    "text": "我容易做最坏的打算",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "af55f014-788c-4b6e-92c4-b2b59dc8a28d",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 1,
+    "num": 32,
+    "text": "我在人群中感到自在",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "08ff6dca-02a5-4aeb-aaa4-2ecf2526f143",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 1,
+    "num": 33,
+    "text": "我享受天马行空的幻想",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "6f66cdc0-9044-457b-b40d-501ecae15ee7",
+    "keyed": "plus",
+    "domain": "A",
+    "facet": 1,
+    "num": 34,
+    "text": "我倾向于相信他人出于善意",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "f110fc66-2e9e-413c-920b-19f05e63d7ac",
+    "keyed": "plus",
+    "domain": "C",
+    "facet": 1,
+    "num": 35,
+    "text": "我在所做的事情上表现突出",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "7dab2a37-8635-4fc7-86b7-0abf13c183c9",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 2,
+    "num": 36,
+    "text": "我容易被小事激怒",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "28ab59a0-e7cd-4fce-94e3-bba2ecc023b6",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 2,
+    "num": 37,
+    "text": "在聚会上我会与很多人交谈",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "b5919f2f-cded-4745-a9ce-c02703cee807",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 2,
+    "num": 38,
+    "text": "我能发现他人容易忽略的美",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "5a5fa975-d024-4ac8-8845-2823f957c21b",
+    "keyed": "minus",
+    "domain": "A",
+    "facet": 2,
+    "num": 39,
+    "text": "为了领先，我可能会采取不够正当的手段",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "adf33f9f-45bd-43e3-af25-4c491176d97f",
+    "keyed": "minus",
+    "domain": "C",
+    "facet": 2,
+    "num": 40,
+    "text": "我时常忘记把东西放回原处",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "f0a14e16-d726-47e9-a2c1-647fd3d7d52e",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 3,
+    "num": 41,
+    "text": "我时常对自己感到不满意",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "0b38e3d3-c15c-454c-b034-f4eb7ae1580a",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 3,
+    "num": 42,
+    "text": "我会尝试带领和影响他人",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "5631b856-ff34-4f76-a0cd-edc7104c3bfa",
+    "keyed": "plus",
+    "domain": "O",
+    "facet": 3,
+    "num": 43,
+    "text": "我能敏锐感知他人的情绪",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "ada867af-4db1-4e3d-a604-2b695c1806e5",
+    "keyed": "plus",
+    "domain": "A",
+    "facet": 3,
+    "num": 44,
+    "text": "我关心他人的感受与福祉",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "c55e3958-00c4-4fc3-9118-47d8f31bfde1",
+    "keyed": "plus",
+    "domain": "C",
+    "facet": 3,
+    "num": 45,
+    "text": "我倾向于如实表达、不说谎",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "acd8fadc-5399-4a67-b5ff-9d1ada049c01",
+    "keyed": "plus",
+    "domain": "N",
+    "facet": 4,
+    "num": 46,
+    "text": "我害怕成为众人关注的焦点",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "d07b6c67-0d02-4948-a997-bb84ac234cd8",
+    "keyed": "plus",
+    "domain": "E",
+    "facet": 4,
+    "num": 47,
+    "text": "我总是精力充沛、停不下来",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "33b81fd0-7e32-4cd8-a13a-d5f5f754f998",
+    "keyed": "minus",
+    "domain": "O",
+    "facet": 4,
+    "num": 48,
+    "text": "我更愿意坚持熟悉的事物与方法",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "d9a9a180-29c9-4ec5-8621-2256d411def7",
+    "keyed": "minus",
+    "domain": "A",
+    "facet": 4,
+    "num": 49,
+    "text": "我会对他人大声发火",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  },
+  {
+    "id": "f12c3d9d-1d12-4aa6-ad2e-009cd0651cbb",
+    "keyed": "plus",
+    "domain": "C",
+    "facet": 4,
+    "num": 50,
+    "text": "我往往比预期做得更多",
+    "choices": [
+      {
+        "text": "非常不符合",
+        "score": 1,
+        "color": 1
+      },
+      {
+        "text": "比较不符合",
+        "score": 2,
+        "color": 2
+      },
+      {
+        "text": "不确定",
+        "score": 3,
+        "color": 3
+      },
+      {
+        "text": "比较符合",
+        "score": 4,
+        "color": 4
+      },
+      {
+        "text": "非常符合",
+        "score": 5,
+        "color": 5
+      }
+    ]
+  }
+]

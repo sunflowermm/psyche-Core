@@ -1,0 +1,530 @@
+{
+  "id": "cbti-scene",
+  "extends": "cbti.json",
+  "slug": "cbti-scene",
+  "questionCount": 24,
+  "estimatedMinutes": 7,
+  "source": {
+    "name": "Psyche 程序员情境题",
+    "license": "项目内"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "dimension": "C1",
+      "text": "凌晨三点改线上 bug，你会先：",
+      "options": [
+        {
+          "value": 1,
+          "label": "能跑就行，先止血上线再说"
+        },
+        {
+          "value": 2,
+          "label": "快速定位根因，顺手把明显脏代码收一收"
+        },
+        {
+          "value": 3,
+          "label": "哪怕多花时间也要把结构理顺再发版"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "dimension": "C2",
+      "text": "产品说「这功能下周必须上」，但架构还有明显债，你：",
+      "options": [
+        {
+          "value": 1,
+          "label": "债？不存在的，先交付再说"
+        },
+        {
+          "value": 2,
+          "label": "砍 scope 或留 TODO，折中推进"
+        },
+        {
+          "value": 3,
+          "label": "坚持留重构窗口，否则后面更痛"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "dimension": "C3",
+      "text": "接手一个没有 README 也没有 CI 的老项目，第一反应：",
+      "options": [
+        {
+          "value": 1,
+          "label": "直接改，跑起来就算赢"
+        },
+        {
+          "value": 2,
+          "label": "补最小文档和一条流水线，再动业务"
+        },
+        {
+          "value": 3,
+          "label": "先梳理模块边界、补测试和 lint，再开发"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "dimension": "B1",
+      "text": "用户反馈「你们系统又挂了」，日志指向第三方 SDK：",
+      "options": [
+        {
+          "value": 1,
+          "label": "肯定是他们的问题，先甩锅保平安"
+        },
+        {
+          "value": 2,
+          "label": "两边都查，但心里希望不是自己"
+        },
+        {
+          "value": 3,
+          "label": "默认自己集成有问题，追到最后一行"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "dimension": "B2",
+      "text": "发布窗口内监控告警狂响，你：",
+      "options": [
+        {
+          "value": 1,
+          "label": "先静音告警，等会儿再看"
+        },
+        {
+          "value": 2,
+          "label": "紧张但能按预案一步步来"
+        },
+        {
+          "value": 3,
+          "label": "越乱越冷静，回滚和排查并行"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "dimension": "B3",
+      "text": "同事误 merge 了有问题的分支，你：",
+      "options": [
+        {
+          "value": 1,
+          "label": "不是我 merge 的，下班"
+        },
+        {
+          "value": 2,
+          "label": "自己的模块自己扛，别人的看情况帮"
+        },
+        {
+          "value": 3,
+          "label": "一起修，先把线上稳住"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "dimension": "T1",
+      "text": "Code Review 里看到明显坏味道，你会：",
+      "options": [
+        {
+          "value": 1,
+          "label": "LGTM，别耽误合并"
+        },
+        {
+          "value": 2,
+          "label": "提几条建议，对方听不听随缘"
+        },
+        {
+          "value": 3,
+          "label": "认真写 comment，必要时当面讲清楚"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "dimension": "T2",
+      "text": "站会里 PM 和技术对需求理解不一致，你倾向：",
+      "options": [
+        {
+          "value": 1,
+          "label": "少说话，按文档做就行"
+        },
+        {
+          "value": 2,
+          "label": "必要时澄清，但不想当出头鸟"
+        },
+        {
+          "value": 3,
+          "label": "主动拉齐，把歧义当场消掉"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "dimension": "T3",
+      "text": "跨时区协作，会议总在你睡觉的点：",
+      "options": [
+        {
+          "value": 1,
+          "label": "能推就推，异步留言完事"
+        },
+        {
+          "value": 2,
+          "label": "重要会参加，其他录像补"
+        },
+        {
+          "value": 3,
+          "label": "尽量协调时段，团队节奏一起扛"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "dimension": "I1",
+      "text": "新技术栈刚出来，团队还没定论，你：",
+      "options": [
+        {
+          "value": 1,
+          "label": "等别人踩坑，成熟再用"
+        },
+        {
+          "value": 2,
+          "label": "小范围试，有数据再推广"
+        },
+        {
+          "value": 3,
+          "label": "兴奋，周末就想写 demo"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "dimension": "I2",
+      "text": "面对「这个需求技术上能不能做」的追问：",
+      "options": [
+        {
+          "value": 1,
+          "label": "先答应，真不行再说"
+        },
+        {
+          "value": 2,
+          "label": "估个大概，留 buffer"
+        },
+        {
+          "value": 3,
+          "label": "拆任务、讲风险、给替代方案"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "dimension": "I3",
+      "text": "文档和代码不一致，你更常：",
+      "options": [
+        {
+          "value": 1,
+          "label": "以代码为准，文档随缘"
+        },
+        {
+          "value": 2,
+          "label": "改代码时顺手更文档"
+        },
+        {
+          "value": 3,
+          "label": "文档也是交付物，不对就修"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "dimension": "M1",
+      "text": "Sprint 规划时估点，你的风格：",
+      "options": [
+        {
+          "value": 1,
+          "label": "拍脑袋，反正会延期"
+        },
+        {
+          "value": 2,
+          "label": "参考历史，略留余量"
+        },
+        {
+          "value": 3,
+          "label": "拆到可验收，和团队对齐"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "dimension": "M2",
+      "text": "同时有三个 urgent 工单，你：",
+      "options": [
+        {
+          "value": 1,
+          "label": "哪个催得凶先做哪个"
+        },
+        {
+          "value": 2,
+          "label": "按影响面排个序"
+        },
+        {
+          "value": 3,
+          "label": "和 stakeholder 对齐优先级再动"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "dimension": "M3",
+      "text": "个人 side project 的发布节奏：",
+      "options": [
+        {
+          "value": 1,
+          "label": "idea 很多，成品很少"
+        },
+        {
+          "value": 2,
+          "label": "有动力时猛肝，没动力就停"
+        },
+        {
+          "value": 3,
+          "label": "小步迭代，定期发版"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "dimension": "C1",
+      "text": "看到同事 PR 里变量名 `data2`、`temp`，你：",
+      "options": [
+        {
+          "value": 1,
+          "label": "能读懂就行，别多事"
+        },
+        {
+          "value": 2,
+          "label": "心里吐槽，除非影响理解才说"
+        },
+        {
+          "value": 3,
+          "label": "忍不住 suggest 更好的命名"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "dimension": "T2",
+      "text": "线上复盘会，你被点名讲故障经过：",
+      "options": [
+        {
+          "value": 1,
+          "label": "能简则简，尽快结束"
+        },
+        {
+          "value": 2,
+          "label": "讲清楚时间线，细节看文档"
+        },
+        {
+          "value": 3,
+          "label": "完整复盘，包括改进项和 owner"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "dimension": "M3",
+      "text": "学习一门新语言/框架，你通常：",
+      "options": [
+        {
+          "value": 1,
+          "label": "收藏教程 = 已学会"
+        },
+        {
+          "value": 2,
+          "label": "跟着做几个小项目"
+        },
+        {
+          "value": 3,
+          "label": "定目标、做笔记、输出总结"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "dimension": "D1",
+      "text": "需求文档写了「等用户反馈再定」，你：",
+      "options": [
+        {
+          "value": 1,
+          "label": "先写个能跑的，反正会改"
+        },
+        {
+          "value": 2,
+          "label": "追问边界，至少定 MVP"
+        },
+        {
+          "value": 3,
+          "label": "不写清楚不开工"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "dimension": "D2",
+      "text": "技术选型讨论会上，你更像：",
+      "options": [
+        {
+          "value": 1,
+          "label": "啥火用啥，跟上潮流"
+        },
+        {
+          "value": 2,
+          "label": "列 pros/cons 再投票"
+        },
+        {
+          "value": 3,
+          "label": "坚持团队熟悉且可维护的方案"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "dimension": "A1",
+      "text": "线上会议摄像头默认：",
+      "options": [
+        {
+          "value": 1,
+          "label": "关，能打字就不露脸"
+        },
+        {
+          "value": 2,
+          "label": "看场合，重要场合开"
+        },
+        {
+          "value": 3,
+          "label": "开，方便读表情和氛围"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "dimension": "A2",
+      "text": "结对编程时，你偏好：",
+      "options": [
+        {
+          "value": 1,
+          "label": "各写各的，最后 merge"
+        },
+        {
+          "value": 2,
+          "label": "轮流驾驶，互相 review"
+        },
+        {
+          "value": 3,
+          "label": "实时共享屏幕，同步节奏"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "dimension": "A3",
+      "text": "收到「在吗？」没上下文，你：",
+      "options": [
+        {
+          "value": 1,
+          "label": "已读不回，等对方说事"
+        },
+        {
+          "value": 2,
+          "label": "回「在，啥事？」"
+        },
+        {
+          "value": 3,
+          "label": "直接问具体问题和 deadline"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "dimension": "D3",
+      "text": "看到仓库里 2000 行单文件组件：",
+      "options": [
+        {
+          "value": 1,
+          "label": "能跑别动，触之即炸"
+        },
+        {
+          "value": 2,
+          "label": "新功能尽量外抽，老代码不动"
+        },
+        {
+          "value": 3,
+          "label": "迟早要拆，列入重构计划"
+        }
+      ]
+    }
+  ],
+  "hiddenQuestions": [
+    {
+      "id": 31,
+      "hiddenKey": "drink",
+      "text": "彩蛋 · 加班夜你手边更可能是：",
+      "options": [
+        {
+          "value": "water",
+          "label": "保温杯养生"
+        },
+        {
+          "value": "tea",
+          "label": "茶 / 功能饮料"
+        },
+        {
+          "value": "coffee",
+          "label": "咖啡续命"
+        },
+        {
+          "value": "cola",
+          "label": "奶茶 / 可乐"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "hiddenKey": "drinkAttitude",
+      "triggerKey": "drink",
+      "triggerPrev": "coffee",
+      "text": "如果选了咖啡——你的真实剂量：",
+      "options": [
+        {
+          "value": "casual",
+          "label": "一杯，够用了"
+        },
+        {
+          "value": "addict",
+          "label": "三杯起步，否则 merge 不了"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "hiddenKey": "nightOwl",
+      "text": "彩蛋 · 你最高产的时段：",
+      "options": [
+        {
+          "value": "early",
+          "label": "上午，头脑最清醒"
+        },
+        {
+          "value": "normal",
+          "label": "下午，看当天状态"
+        },
+        {
+          "value": "owl",
+          "label": "深夜，世界终于安静了"
+        }
+      ]
+    }
+  ]
+}

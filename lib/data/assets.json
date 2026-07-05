@@ -1,0 +1,735 @@
+{
+  "version": 10,
+  "mbti": {
+    "INTJ": {
+      "title": "建筑师",
+      "color": "#88619a",
+      "group": "analyst",
+      "image": "/psyche/assets/mbti/intj.svg",
+      "imageFemale": "/psyche/assets/mbti-f/intj.svg"
+    },
+    "INTP": {
+      "title": "逻辑学家",
+      "color": "#88619a",
+      "group": "analyst",
+      "image": "/psyche/assets/mbti/intp.svg",
+      "imageFemale": "/psyche/assets/mbti-f/intp.svg"
+    },
+    "ENTJ": {
+      "title": "指挥官",
+      "color": "#88619a",
+      "group": "analyst",
+      "image": "/psyche/assets/mbti/entj.svg",
+      "imageFemale": "/psyche/assets/mbti-f/entj.svg"
+    },
+    "ENTP": {
+      "title": "辩论家",
+      "color": "#88619a",
+      "group": "analyst",
+      "image": "/psyche/assets/mbti/entp.svg",
+      "imageFemale": "/psyche/assets/mbti-f/entp.svg"
+    },
+    "INFJ": {
+      "title": "提倡者",
+      "color": "#33a474",
+      "group": "diplomat",
+      "image": "/psyche/assets/mbti/infj.svg",
+      "imageFemale": "/psyche/assets/mbti-f/infj.svg"
+    },
+    "INFP": {
+      "title": "调停者",
+      "color": "#33a474",
+      "group": "diplomat",
+      "image": "/psyche/assets/mbti/infp.svg",
+      "imageFemale": "/psyche/assets/mbti-f/infp.svg"
+    },
+    "ENFJ": {
+      "title": "主人公",
+      "color": "#33a474",
+      "group": "diplomat",
+      "image": "/psyche/assets/mbti/enfj.svg",
+      "imageFemale": "/psyche/assets/mbti-f/enfj.svg"
+    },
+    "ENFP": {
+      "title": "竞选者",
+      "color": "#33a474",
+      "group": "diplomat",
+      "image": "/psyche/assets/mbti/enfp.svg",
+      "imageFemale": "/psyche/assets/mbti-f/enfp.svg"
+    },
+    "ISTJ": {
+      "title": "物流师",
+      "color": "#4298b4",
+      "group": "sentinel",
+      "image": "/psyche/assets/mbti/istj.svg",
+      "imageFemale": "/psyche/assets/mbti-f/istj.svg"
+    },
+    "ISFJ": {
+      "title": "守卫者",
+      "color": "#4298b4",
+      "group": "sentinel",
+      "image": "/psyche/assets/mbti/isfj.svg",
+      "imageFemale": "/psyche/assets/mbti-f/isfj.svg"
+    },
+    "ESTJ": {
+      "title": "总经理",
+      "color": "#4298b4",
+      "group": "sentinel",
+      "image": "/psyche/assets/mbti/estj.svg",
+      "imageFemale": "/psyche/assets/mbti-f/estj.svg"
+    },
+    "ESFJ": {
+      "title": "执政官",
+      "color": "#4298b4",
+      "group": "sentinel",
+      "image": "/psyche/assets/mbti/esfj.svg",
+      "imageFemale": "/psyche/assets/mbti-f/esfj.svg"
+    },
+    "ISTP": {
+      "title": "鉴赏家",
+      "color": "#e4ae3a",
+      "group": "explorer",
+      "image": "/psyche/assets/mbti/istp.svg",
+      "imageFemale": "/psyche/assets/mbti-f/istp.svg"
+    },
+    "ISFP": {
+      "title": "探险家",
+      "color": "#e4ae3a",
+      "group": "explorer",
+      "image": "/psyche/assets/mbti/isfp.svg",
+      "imageFemale": "/psyche/assets/mbti-f/isfp.svg"
+    },
+    "ESTP": {
+      "title": "企业家",
+      "color": "#e4ae3a",
+      "group": "explorer",
+      "image": "/psyche/assets/mbti/estp.svg",
+      "imageFemale": "/psyche/assets/mbti-f/estp.svg"
+    },
+    "ESFP": {
+      "title": "表演者",
+      "color": "#e4ae3a",
+      "group": "explorer",
+      "image": "/psyche/assets/mbti/esfp.svg",
+      "imageFemale": "/psyche/assets/mbti-f/esfp.svg"
+    }
+  },
+  "ocean": {
+    "O": {
+      "title": "开放性",
+      "color": "#7c5cbf",
+      "trait": "intuitive",
+      "image": "/psyche/assets/ocean/o.svg"
+    },
+    "C": {
+      "title": "尽责性",
+      "color": "#2d6a4f",
+      "trait": "judging",
+      "image": "/psyche/assets/ocean/c.svg"
+    },
+    "E": {
+      "title": "外向性",
+      "color": "#c45c26",
+      "trait": "extraverted",
+      "image": "/psyche/assets/ocean/e.svg"
+    },
+    "A": {
+      "title": "宜人性",
+      "color": "#3d8b8b",
+      "trait": "feeling",
+      "image": "/psyche/assets/ocean/a.svg"
+    },
+    "N": {
+      "title": "神经质",
+      "color": "#5c6b8a",
+      "trait": "turbulent",
+      "image": "/psyche/assets/ocean/n.svg"
+    }
+  },
+  "traits": {
+    "introverted": {
+      "image": "/psyche/assets/traits/introverted.svg"
+    },
+    "extraverted": {
+      "image": "/psyche/assets/traits/extraverted.svg"
+    },
+    "intuitive": {
+      "image": "/psyche/assets/traits/intuitive.svg"
+    },
+    "observant": {
+      "image": "/psyche/assets/traits/observant.svg"
+    },
+    "thinking": {
+      "image": "/psyche/assets/traits/thinking.svg"
+    },
+    "feeling": {
+      "image": "/psyche/assets/traits/feeling.svg"
+    },
+    "judging": {
+      "image": "/psyche/assets/traits/judging.svg"
+    },
+    "prospecting": {
+      "image": "/psyche/assets/traits/prospecting.svg"
+    },
+    "assertive": {
+      "image": "/psyche/assets/traits/assertive.svg"
+    },
+    "turbulent": {
+      "image": "/psyche/assets/traits/turbulent.svg"
+    }
+  },
+  "cbti": {
+    "404": {
+      "name": "隐身人",
+      "color": "#9CA3AF",
+      "motto": "我？不在工位。不在线。不存在。",
+      "image": "/psyche/assets/psyche-generated/cbti/404.png"
+    },
+    "996": {
+      "name": "卷王之王",
+      "color": "#BE123C",
+      "motto": "你下班了？我再优化一下那个0.01ms。",
+      "image": "/psyche/assets/psyche-generated/cbti/996.png"
+    },
+    "SUDO": {
+      "name": "万能管理员",
+      "color": "#16A34A",
+      "motto": "遇事不决，sudo 一下。",
+      "image": "/psyche/assets/psyche-generated/cbti/SUDO.png"
+    },
+    "README": {
+      "name": "文档侠",
+      "color": "#2563EB",
+      "motto": "别问我，看文档。",
+      "image": "/psyche/assets/psyche-generated/cbti/README.png"
+    },
+    "GIT-F": {
+      "name": "强推人",
+      "color": "#DC2626",
+      "motto": "git push --force，信仰之推。",
+      "image": "/psyche/assets/psyche-generated/cbti/GIT-F.png"
+    },
+    "CRUD": {
+      "name": "增删改查侠",
+      "color": "#64748B",
+      "motto": "需求再复杂，本质都是CRUD。",
+      "image": "/psyche/assets/psyche-generated/cbti/CRUD.png"
+    },
+    "BUG-0": {
+      "name": "零Bug战士",
+      "color": "#7C3AED",
+      "motto": "Bug？在我的代码里不存在。别的代码我不管。",
+      "image": "/psyche/assets/psyche-generated/cbti/BUG-0.png"
+    },
+    "VIBE": {
+      "name": "氛围程序员",
+      "color": "#D946EF",
+      "motto": "我不写代码，我只是告诉AI我的感觉。",
+      "image": "/psyche/assets/psyche-generated/cbti/VIBE.png"
+    },
+    "LGTM": {
+      "name": "老好人",
+      "color": "#F59E0B",
+      "motto": "LGTM 👍（Lord Give This Man a brain）",
+      "image": "/psyche/assets/psyche-generated/cbti/LGTM.png"
+    },
+    "NPM-i": {
+      "name": "轮子收藏家",
+      "color": "#EF4444",
+      "motto": "npm install 一切。自己写？不存在的。",
+      "image": "/psyche/assets/psyche-generated/cbti/NPM-i.png"
+    },
+    "DEL-F": {
+      "name": "删库跑路人",
+      "color": "#B91C1C",
+      "motto": "rm -rf / 或者跑路，总要选一个。",
+      "image": "/psyche/assets/psyche-generated/cbti/DEL-F.png"
+    },
+    "FIXME": {
+      "name": "永远在修的人",
+      "color": "#EA580C",
+      "motto": "TODO: fix this later（后来再也没后来了）",
+      "image": "/psyche/assets/psyche-generated/cbti/FIXME.png"
+    },
+    "HACK": {
+      "name": "野生黑客",
+      "color": "#059669",
+      "motto": "又不是不能用.jpg",
+      "image": "/psyche/assets/psyche-generated/cbti/HACK.png"
+    },
+    "CTRL-C": {
+      "name": "复制粘贴工程师",
+      "color": "#0EA5E9",
+      "motto": "CV大法好。Stack Overflow是我爹。",
+      "image": "/psyche/assets/psyche-generated/cbti/CTRL-C.png"
+    },
+    "RUSH": {
+      "name": "极限速通者",
+      "color": "#F97316",
+      "motto": "Deadline是第一生产力。",
+      "image": "/psyche/assets/psyche-generated/cbti/RUSH.png"
+    },
+    "RTFM": {
+      "name": "原教旨主义者",
+      "color": "#1D4ED8",
+      "motto": "Read The F***ing Manual。不看文档别来问我。",
+      "image": "/psyche/assets/psyche-generated/cbti/RTFM.png"
+    },
+    "//TODO": {
+      "name": "永远下一版",
+      "color": "#A16207",
+      "motto": "// TODO: 下次一定",
+      "image": "/psyche/assets/psyche-generated/cbti/__TODO.png"
+    },
+    "GOTO": {
+      "name": "叛逆者",
+      "color": "#4F46E5",
+      "motto": "规则是用来打破的，goto 也是用来跳的。",
+      "image": "/psyche/assets/psyche-generated/cbti/GOTO.png"
+    },
+    "PING": {
+      "name": "社交达人",
+      "color": "#EC4899",
+      "motto": "我 ping 你一下，你在吗？",
+      "image": "/psyche/assets/psyche-generated/cbti/PING.png"
+    },
+    "NULL": {
+      "name": "空指针",
+      "color": "#78716C",
+      "motto": "NullPointerException: 人生意义 is null",
+      "image": "/psyche/assets/psyche-generated/cbti/NULL.png"
+    },
+    "SENIOR": {
+      "name": "面试造火箭",
+      "color": "#7E22CE",
+      "motto": "手撕红黑树，入职增删改查。",
+      "image": "/psyche/assets/psyche-generated/cbti/SENIOR.png"
+    },
+    "YAML": {
+      "name": "配置工程师",
+      "color": "#0891B2",
+      "motto": "我不写代码，我写配置文件。",
+      "image": "/psyche/assets/psyche-generated/cbti/YAML.png"
+    },
+    "STACK": {
+      "name": "八股文战神",
+      "color": "#B45309",
+      "motto": "HashMap 底层原理？问我就对了。",
+      "image": "/psyche/assets/psyche-generated/cbti/STACK.png"
+    },
+    "SLEEP": {
+      "name": "Deadline觉醒者",
+      "color": "#6B7280",
+      "motto": "我没死，我只是在等 deadline。",
+      "image": "/psyche/assets/psyche-generated/cbti/SLEEP.png"
+    },
+    "FORK": {
+      "name": "开源圣体",
+      "color": "#15803D",
+      "motto": "不要 star，要 PR。",
+      "image": "/psyche/assets/psyche-generated/cbti/FORK.png"
+    },
+    "AGILE": {
+      "name": "敏捷话术大师",
+      "color": "#0D9488",
+      "motto": "让我们做一个 retro，sync一下 blocker。",
+      "image": "/psyche/assets/psyche-generated/cbti/AGILE.png"
+    },
+    "REGEX": {
+      "name": "正则之神",
+      "color": "#4338CA",
+      "motto": "/^(?=.*我)(?=.*理解)(?=.*正则).+$/g — 匹配失败",
+      "image": "/psyche/assets/psyche-generated/cbti/REGEX.png"
+    },
+    "JAVA": {
+      "name": "咖啡因驱动开发者",
+      "color": "#92400E",
+      "motto": "public static void main(Coffee[] args) { drink(); }",
+      "image": "/psyche/assets/psyche-generated/cbti/JAVA.png"
+    }
+  },
+  "sbti": {
+    "CTRL": {
+      "name": "拿捏者",
+      "color": "hsl(339,58%,48%)",
+      "motto": "怎么样，被我拿捏了吧？",
+      "oneliner": "高自信、高清晰度、高价值、高责任、高行动力，几乎全 H。现实里对应的是那种\"你塌方了，他一个信息把你拽回来\"的朋友。",
+      "rarity": 3.61,
+      "image": "/psyche/assets/psyche-generated/sbti/CTRL.png"
+    },
+    "ATM-er": {
+      "name": "送钱者",
+      "color": "hsl(216,58%,48%)",
+      "motto": "你以为我很有钱吗？",
+      "oneliner": "什么都扛，但从来不说累——插进去的是别人的焦虑，吐出来的是\"没事，有我\"。",
+      "rarity": 2.46,
+      "image": "/psyche/assets/psyche-generated/sbti/ATM-er.png"
+    },
+    "Dior-s": {
+      "name": "屌丝",
+      "color": "hsl(318,58%,48%)",
+      "motto": "等着我屌丝逆袭。",
+      "oneliner": "名字玩梗：Diogenes' Original Realist-sage。看破红尘但过得挺舒服的躺平老哲人。",
+      "rarity": 5.23,
+      "image": "/psyche/assets/psyche-generated/sbti/Dior-s.png"
+    },
+    "BOSS": {
+      "name": "领导者",
+      "color": "hsl(341,58%,48%)",
+      "motto": "方向盘给我，我来开。",
+      "oneliner": "除了社交那一组偏低，其他全是 H。典型的事业狂+秩序控，对别人和自己都狠。",
+      "rarity": 1.53,
+      "image": "/psyche/assets/psyche-generated/sbti/BOSS.png"
+    },
+    "THAN-K": {
+      "name": "感恩者",
+      "color": "hsl(239,58%,48%)",
+      "motto": "我感谢苍天！我感谢大地！",
+      "oneliner": "情感投入度和世界观倾向都偏 H，真诚到让人一时反应不过来。",
+      "rarity": 7.76,
+      "image": "/psyche/assets/psyche-generated/sbti/THAN-K.png"
+    },
+    "OH-NO": {
+      "name": "哦不人",
+      "color": "hsl(293,58%,48%)",
+      "motto": "哦不！我怎么会是这个人格？！",
+      "oneliner": "高自我清晰度 + 极强的秩序感 + 高边界感，对\"失控\"的容忍度接近 0。",
+      "rarity": 3.05,
+      "image": "/psyche/assets/psyche-generated/sbti/OH-NO.png"
+    },
+    "GOGO": {
+      "name": "行者",
+      "color": "hsl(240,58%,48%)",
+      "motto": "gogogo~出发咯",
+      "oneliner": "和 CTRL 非常接近，但目标更\"所见即所得\"，在拿捏自己的 todo list。",
+      "rarity": 3.05,
+      "image": "/psyche/assets/psyche-generated/sbti/GOGO.png"
+    },
+    "SEXY": {
+      "name": "尤物",
+      "color": "hsl(179,58%,48%)",
+      "motto": "您就是天生的尤物！",
+      "oneliner": "高自信高魅力，情感也真舍得投入，走到哪里都自带主角光环。",
+      "rarity": 5.94,
+      "image": "/psyche/assets/psyche-generated/sbti/SEXY.png"
+    },
+    "LOVE-R": {
+      "name": "多情者",
+      "color": "hsl(167,58%,48%)",
+      "motto": "爱意太满，现实显得有点贫瘠。",
+      "oneliner": "情感投入度 H、人生意义感 H，内心戏巨丰富，但落地能力一般，属于浪漫派。",
+      "rarity": 4.23,
+      "image": "/psyche/assets/psyche-generated/sbti/LOVE-R.png"
+    },
+    "MUM": {
+      "name": "妈妈",
+      "color": "hsl(29,58%,48%)",
+      "motto": "或许...我可以叫你妈妈吗....?",
+      "oneliner": "擅长照顾别人情绪，但不太肯把矛头指向自己的需求，是测试里最温柔也最心酸的人格。",
+      "rarity": 5.14,
+      "image": "/psyche/assets/psyche-generated/sbti/MUM.png"
+    },
+    "FAKE": {
+      "name": "伪人",
+      "color": "hsl(309,58%,48%)",
+      "motto": "已经，没有人类了。",
+      "oneliner": "\"维持形象\"的能力极强，但真正稳定的内核不多——伪人的核心不是恶意，是空。",
+      "rarity": 6.61,
+      "image": "/psyche/assets/psyche-generated/sbti/FAKE.png"
+    },
+    "OJBK": {
+      "name": "无所谓人",
+      "color": "hsl(324,58%,48%)",
+      "motto": "我说随便，是真的随便。",
+      "oneliner": "全是 M 居多，几乎没有极端值。\"都行\"不是没主见，是字面意义的中道。",
+      "rarity": 9.92,
+      "image": "/psyche/assets/psyche-generated/sbti/OJBK.png"
+    },
+    "MALO": {
+      "name": "吗喽",
+      "color": "hsl(87,58%,48%)",
+      "motto": "人生是个副本，而我只是一只吗喽。",
+      "oneliner": "看起来在混，其实该交差的时候也交得很利索。\"我知道这游戏是个笑话，但我还是陪你们玩。\"",
+      "rarity": 5.71,
+      "image": "/psyche/assets/psyche-generated/sbti/MALO.png"
+    },
+    "JOKE-R": {
+      "name": "小丑",
+      "color": "hsl(124,58%,48%)",
+      "motto": "原来我们都是小丑。",
+      "oneliner": "自信 L、自我清晰度 L，但核心价值 H，情感投入 H。用笑声掩盖心碎，外表和内心温差最大。",
+      "rarity": 2.99,
+      "image": "/psyche/assets/psyche-generated/sbti/JOKE-R.png"
+    },
+    "WOC!": {
+      "name": "握草人",
+      "color": "hsl(86,58%,48%)",
+      "motto": "卧槽，我怎么是这个人格？",
+      "oneliner": "THIN-K 的表情包版本：嘴上大惊小怪，后台冷静分析。\"嘴上吃惊，心里冷静。\"",
+      "rarity": 2.04,
+      "image": "/psyche/assets/psyche-generated/sbti/WOC_.png"
+    },
+    "THIN-K": {
+      "name": "思考者",
+      "color": "hsl(247,58%,48%)",
+      "motto": "已深度思考100s。",
+      "oneliner": "高自信、高清晰度、强边界感、强分层——整个向量像一个审判型知识分子。",
+      "rarity": 2.24,
+      "image": "/psyche/assets/psyche-generated/sbti/THIN-K.png"
+    },
+    "SHIT": {
+      "name": "愤世者",
+      "color": "hsl(72,58%,48%)",
+      "motto": "这个世界，构石一坨。",
+      "oneliner": "和 THIN-K 很像但嘴硬心软，E2 情感投入 L、A2 规则 L。一边骂世界一边拯救世界。",
+      "rarity": 2.53,
+      "image": "/psyche/assets/psyche-generated/sbti/SHIT.png"
+    },
+    "ZZZZ": {
+      "name": "装死者",
+      "color": "hsl(0,58%,48%)",
+      "motto": "我没死，我只是在睡觉。",
+      "oneliner": "不是没能力，是没被死线激活之前完全处于休眠状态。死线是唯一的最高权限。",
+      "rarity": 4.68,
+      "image": "/psyche/assets/psyche-generated/sbti/ZZZZ.png"
+    },
+    "POOR": {
+      "name": "贫困者",
+      "color": "hsl(50,58%,48%)",
+      "motto": "我穷，但我很专。",
+      "oneliner": "把所有精力压缩成一束激光打在一件事上，\"贫困\"是主动选择而非结果。",
+      "rarity": 1.68,
+      "image": "/psyche/assets/psyche-generated/sbti/POOR.png"
+    },
+    "MONK": {
+      "name": "僧人",
+      "color": "hsl(279,58%,48%)",
+      "motto": "没有那种世俗的欲望。",
+      "oneliner": "除了自信和清晰度是 H，其他几乎全是 L/M。想象一个字面意义的结界。",
+      "rarity": 2.8,
+      "image": "/psyche/assets/psyche-generated/sbti/MONK.png"
+    },
+    "IMSB": {
+      "name": "傻者",
+      "color": "hsl(299,58%,48%)",
+      "motto": "认真的么？我真的是傻逼么？",
+      "oneliner": "几乎全 L，只有 Ac2 是 M。脑内有两个不死不休的战士：一个叫\"冲了\"，一个叫\"傻逼\"。",
+      "rarity": 4.21,
+      "image": "/psyche/assets/psyche-generated/sbti/IMSB.png"
+    },
+    "SOLO": {
+      "name": "孤儿",
+      "color": "hsl(47,58%,48%)",
+      "motto": "我哭了，我怎么会是孤儿？",
+      "oneliner": "身上全是刺，但刺下面是\"别过来我怕你也受伤\"的软心脏，主动把别人推开。",
+      "rarity": 3.72,
+      "image": "/psyche/assets/psyche-generated/sbti/SOLO.png"
+    },
+    "FUCK": {
+      "name": "草者",
+      "color": "hsl(207,58%,48%)",
+      "motto": "操！这是什么人格？",
+      "oneliner": "情感投入度 H、真实度 H，其他大多偏 L。不 care 规则，但对喜欢的东西真的上头。",
+      "rarity": 3.38,
+      "image": "/psyche/assets/psyche-generated/sbti/FUCK.png"
+    },
+    "DEAD": {
+      "name": "死者",
+      "color": "hsl(60,58%,48%)",
+      "motto": "我，还活着吗？",
+      "oneliner": "\"通关后删档\"的顶级倦怠，和装死者 ZZZZ 的区别是：ZZZZ 有死线会醒，DEAD 真的失去了 drive。",
+      "rarity": 2.5,
+      "image": "/psyche/assets/psyche-generated/sbti/DEAD.png"
+    },
+    "IMFW": {
+      "name": "废物",
+      "color": "hsl(277,58%,48%)",
+      "motto": "我真的...是废物吗？",
+      "oneliner": "和 DEAD 几乎一样，但核心价值 S3 是 H——废物心里其实很想做好，只是被反复否定到不敢相信自己。",
+      "rarity": 2.12,
+      "image": "/psyche/assets/psyche-generated/sbti/IMFW.png"
+    },
+    "HHHH": {
+      "name": "傻乐者",
+      "color": "hsl(288,58%,48%)",
+      "motto": "哈哈哈哈哈哈。",
+      "oneliner": "系统兜底：脑回路太新，25 个标准人格库对你集体罢工了。",
+      "rarity": 0.06,
+      "image": "/psyche/assets/psyche-generated/sbti/HHHH.png"
+    },
+    "DRUNK": {
+      "name": "酒鬼",
+      "color": "hsl(148,58%,48%)",
+      "motto": "烈酒烧喉，不得不醉。",
+      "oneliner": "隐藏结局。保温杯装白酒当白开水喝，酒精异常因子已接管，匹配度 100%。",
+      "rarity": 0.8,
+      "image": "/psyche/assets/psyche-generated/sbti/DRUNK.png"
+    },
+    "PULL": {
+      "name": "暗控者",
+      "color": "hsl(317,58%,48%)",
+      "motto": "我什么都没做，但我做了一切。",
+      "oneliner": "CTRL 的影子版本。表面低调，实则你的决定里有三分之二是 ta 提前设定好的议程。",
+      "rarity": null,
+      "image": "/psyche/assets/psyche-generated/sbti/PULL.png"
+    },
+    "NOPE": {
+      "name": "回避者",
+      "color": "hsl(246,58%,48%)",
+      "motto": "不是不想靠近，是靠近太可怕。",
+      "oneliner": "MONK清修是主动选择，NOPE的清修是因为靠近太可怕。从小就学会了先跑的动物。",
+      "rarity": null,
+      "image": "/psyche/assets/psyche-generated/sbti/NOPE.png"
+    },
+    "LOOP": {
+      "name": "死循环者",
+      "color": "hsl(44,58%,48%)",
+      "motto": "已深度思考9999秒，尚未启动。",
+      "oneliner": "THIN-K的系统崩溃版。会想，超级会想，就是一直在想、一直在想、一直在想……",
+      "rarity": null,
+      "image": "/psyche/assets/psyche-generated/sbti/LOOP.png"
+    },
+    "RUST": {
+      "name": "内腐者",
+      "color": "hsl(4,58%,48%)",
+      "motto": "我没有愤怒，我只是在里面烂。",
+      "oneliner": "SHIT往外喷，RUST往里溃。同样对世界有话说，只是RUST的声音只有自己听得见。",
+      "rarity": null,
+      "image": "/psyche/assets/psyche-generated/sbti/RUST.png"
+    },
+    "CLOS": {
+      "name": "封闭者",
+      "color": "hsl(125,58%,48%)",
+      "motto": "不是不让你进来，是我把门焊死了。",
+      "oneliner": "SOLO的门是虚掩的，CLOS的门加了三道锁还配了一条狗。",
+      "rarity": null,
+      "image": "/psyche/assets/psyche-generated/sbti/CLOS.png"
+    },
+    "CLIN": {
+      "name": "黏附者",
+      "color": "hsl(294,58%,48%)",
+      "motto": "只要你在，我就存在。",
+      "oneliner": "LOVE-R是因为爱而投入，CLIN是因为害怕失去而无法离开。LOVE-R是主语，CLIN的主语是对方。",
+      "rarity": null,
+      "image": "/psyche/assets/psyche-generated/sbti/CLIN.png"
+    },
+    "MASK": {
+      "name": "无感面具",
+      "color": "hsl(300,58%,48%)",
+      "motto": "面具下面还是面具，脱完了空的。",
+      "oneliner": "FAKE知道自己在演，MASK已经不记得台词后面还有没有原版的自己了。",
+      "rarity": null,
+      "image": "/psyche/assets/psyche-generated/sbti/MASK.png"
+    },
+    "WIRE": {
+      "name": "高压线",
+      "color": "hsl(221,58%,48%)",
+      "motto": "我不累，我只是在120%运转。",
+      "oneliner": "GOGO做事因为兴奋，WIRE做事因为停下来会更可怕。一个在追光，一个在逃暗。",
+      "rarity": null,
+      "image": "/psyche/assets/psyche-generated/sbti/WIRE.png"
+    },
+    "FAWN": {
+      "name": "讨好者",
+      "color": "hsl(330,58%,48%)",
+      "motto": "我没意见，你觉得好就好。",
+      "oneliner": "天生的矛盾熄灭器、气氛救火队——代价是自己也跟着灭掉了。",
+      "rarity": null,
+      "image": "/psyche/assets/psyche-generated/sbti/FAWN.png"
+    },
+    "ECHO": {
+      "name": "回声室",
+      "color": "hsl(77,58%,48%)",
+      "motto": "你说对就对，你说美就美。",
+      "oneliner": "不是没有自己，只是自己是一面高清镜子——反射效果极好，自带功能为零。",
+      "rarity": null,
+      "image": "/psyche/assets/psyche-generated/sbti/ECHO.png"
+    },
+    "DRIFT": {
+      "name": "漂流者",
+      "color": "hsl(257,58%,48%)",
+      "motto": "方向？哦，那个好像不是我的标配。",
+      "oneliner": "既不焦虑也不满足，既不进攻也不后退，随水流动，暂无目的地。",
+      "rarity": null,
+      "image": "/psyche/assets/psyche-generated/sbti/DRIFT.png"
+    },
+    "KEEN": {
+      "name": "探索狂",
+      "color": "hsl(291,58%,48%)",
+      "motto": "我不知道那是什么，但我要去试！",
+      "oneliner": "好奇心是发动机，人生最大的遗憾是活不了九条命。",
+      "rarity": null,
+      "image": "/psyche/assets/psyche-generated/sbti/KEEN.png"
+    },
+    "MIST": {
+      "name": "焦虑虚空",
+      "color": "hsl(77,58%,48%)",
+      "motto": "感觉哪里不对，但不知道哪里。",
+      "oneliner": "和DEAD的区别是：DEAD是海面平静，MIST是海面下面一直有东西在动但你不知道是什么。",
+      "rarity": null,
+      "image": "/psyche/assets/psyche-generated/sbti/MIST.png"
+    }
+  },
+  "shennong": {
+    "NONGHUN": {
+      "name": "神农本农",
+      "color": "#15803d",
+      "motto": "脚上有泥，心里有谱。",
+      "image": "/psyche/assets/psyche-generated/shennong/NONGHUN.png"
+    },
+    "JUANSHEN": {
+      "name": "卷王研神",
+      "color": "#7c3aed",
+      "motto": "闭馆音乐比我闹钟熟。",
+      "image": "/psyche/assets/psyche-generated/shennong/JUANSHEN.png"
+    },
+    "SHEKING": {
+      "name": "社交恐怖分子",
+      "color": "#db2777",
+      "motto": "走到哪都是群聊管理员。",
+      "image": "/psyche/assets/psyche-generated/shennong/SHEKING.png"
+    },
+    "MOART": {
+      "name": "摸鱼艺术家",
+      "color": "#0891b2",
+      "motto": "表面听课，实则冲浪。",
+      "image": "/psyche/assets/psyche-generated/shennong/MOART.png"
+    },
+    "MASHEN": {
+      "name": "码农预备役",
+      "color": "#0ea5e9",
+      "motto": "选课崩了？我写脚本抢。",
+      "image": "/psyche/assets/psyche-generated/shennong/MASHEN.png"
+    },
+    "SOULNET": {
+      "name": "网抑云校友",
+      "color": "#6366f1",
+      "motto": "深夜 emo，白天 OK。",
+      "image": "/psyche/assets/psyche-generated/shennong/SOULNET.png"
+    },
+    "CANTEEN": {
+      "name": "食堂情报局长",
+      "color": "#ea580c",
+      "motto": "哪窗肉多，我比地图还熟。",
+      "image": "/psyche/assets/psyche-generated/shennong/CANTEEN.png"
+    },
+    "LABGHOST": {
+      "name": "实验室幽灵",
+      "color": "#475569",
+      "motto": "人不在群，样在跑。",
+      "image": "/psyche/assets/psyche-generated/shennong/LABGHOST.png"
+    },
+    "CHAOS": {
+      "name": "混沌在校生",
+      "color": "#a855f7",
+      "motto": "课表？那是什么能吃吗。",
+      "image": "/psyche/assets/psyche-generated/shennong/CHAOS.png"
+    },
+    "NIUMA": {
+      "name": "纯牛马",
+      "color": "#78716c",
+      "motto": "我选的是牛马，但沈农养的是希望。",
+      "image": "/psyche/assets/psyche-generated/shennong/NIUMA.png"
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "id": "mbti-scene-28",
+  "engine": "mbti-binary",
+  "scale": {
+    "min": 1,
+    "max": 2
+  },
+  "slug": "mbti-scene",
+  "questionCount": 28,
+  "estimatedMinutes": 8,
+  "source": {
+    "name": "Psyche 情境题",
+    "license": "项目内"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "dimension": "EI",
+      "question": "周五晚上，三个群同时弹「今晚约？」——",
+      "options": [
+        "好耶，终于能出门放风了",
+        "已读不回，假装手机没电"
+      ]
+    },
+    {
+      "id": 2,
+      "dimension": "EI",
+      "question": "新团队第一次开会，空气安静到能听见空调——",
+      "options": [
+        "我先破冰，自我介绍带梗",
+        "等别人说完，我再选择性补刀"
+      ]
+    },
+    {
+      "id": 3,
+      "dimension": "EI",
+      "question": "连轴转社交一整天后，你的电量：",
+      "options": [
+        "还能再续一杯，越聊越精神",
+        "已红条，急需独处充电"
+      ]
+    },
+    {
+      "id": 4,
+      "dimension": "EI",
+      "question": "遇到烦心事，你的默认操作：",
+      "options": [
+        "摇人语音，边吐槽边理清",
+        "关窗关麦，先自己在脑子里过一遍"
+      ]
+    },
+    {
+      "id": 5,
+      "dimension": "SN",
+      "question": "学新技能，你更像：",
+      "options": [
+        "先上手点两下，不会了再查",
+        "先搞懂原理，再动手不翻车"
+      ]
+    },
+    {
+      "id": 6,
+      "dimension": "SN",
+      "question": "别人绘声绘色描述「未来蓝图」，你耳朵抓的是：",
+      "options": [
+        "第一步干啥、预算多少、谁背锅",
+        "有没有意思、能不能改变世界（大概）"
+      ]
+    },
+    {
+      "id": 7,
+      "dimension": "SN",
+      "question": "「我有一种预感……」这种话你：",
+      "options": [
+        "先要看数据和先例",
+        "偶尔会信，直觉也是信息"
+      ]
+    },
+    {
+      "id": 8,
+      "dimension": "SN",
+      "question": "收到一份巨长的说明书/教程：",
+      "options": [
+        "跳过前言，直接找步骤开干",
+        "从头到尾读一遍，心里才踏实"
+      ]
+    },
+    {
+      "id": 9,
+      "dimension": "TF",
+      "question": "朋友找你哭诉，你的第一反应：",
+      "options": [
+        "分析问题出在哪，给方案",
+        "先接住情绪：「我懂，太难了」"
+      ]
+    },
+    {
+      "id": 10,
+      "dimension": "TF",
+      "question": "团队决策吵成一团，你更看重：",
+      "options": [
+        "逻辑自洽、规则公平",
+        "别伤感情、能找到共识"
+      ]
+    },
+    {
+      "id": 11,
+      "dimension": "TF",
+      "question": "评价一个方案，你优先看：",
+      "options": [
+        "效率、数据、能不能验证",
+        "对人的影响和关系成本"
+      ]
+    },
+    {
+      "id": 12,
+      "dimension": "TF",
+      "question": "被当面批评，你更容易：",
+      "options": [
+        "「哪里不对？我改」",
+        "「方式能不能温和点……」"
+      ]
+    },
+    {
+      "id": 13,
+      "dimension": "JP",
+      "question": "出门旅行前，你的风格：",
+      "options": [
+        "清单、预订、备选方案齐活",
+        "大方向定了就走，细节随缘"
+      ]
+    },
+    {
+      "id": 14,
+      "dimension": "JP",
+      "question": "面对 deadline，你的真实状态：",
+      "options": [
+        "提前交，留 buffer 睡觉",
+        "deadline 是第一生产力"
+      ]
+    },
+    {
+      "id": 15,
+      "dimension": "JP",
+      "question": "你的桌面/工位：",
+      "options": [
+        "分类收纳，找东西不用想",
+        "乱中有序，只有我能导航"
+      ]
+    },
+    {
+      "id": 16,
+      "dimension": "JP",
+      "question": "计划突然被改，你：",
+      "options": [
+        "心里咯噔一下，希望有理由",
+        "「行吧」，顺势调整也 ok"
+      ]
+    },
+    {
+      "id": 17,
+      "dimension": "EI",
+      "question": "群聊里有人抛梗，你：",
+      "options": [
+        "接梗速度决定我的社交地位",
+        "默默点赞，偶尔补一句"
+      ]
+    },
+    {
+      "id": 18,
+      "dimension": "SN",
+      "question": "你更欣赏的人：",
+      "options": [
+        "靠谱落地，说做就做",
+        "脑洞大开，总能整新活"
+      ]
+    },
+    {
+      "id": 19,
+      "dimension": "TF",
+      "question": "争论到上头，你更可能说：",
+      "options": [
+        "「事实/规则就是这样」",
+        "「我理解你，但……」"
+      ]
+    },
+    {
+      "id": 20,
+      "dimension": "JP",
+      "question": "做项目你偏好：",
+      "options": [
+        "里程碑清晰，阶段能验收",
+        "边做边改，方向可以飘"
+      ]
+    },
+    {
+      "id": 21,
+      "dimension": "EI",
+      "question": "视频会议默认状态：",
+      "options": [
+        "开摄像头，表情也是沟通",
+        "关摄像头，能打字就不露脸"
+      ]
+    },
+    {
+      "id": 22,
+      "dimension": "SN",
+      "question": "收到一封超长工作邮件：",
+      "options": [
+        "先扫结论和 action items",
+        "从头到尾细读，怕漏细节"
+      ]
+    },
+    {
+      "id": 23,
+      "dimension": "TF",
+      "question": "给同事提改进意见：",
+      "options": [
+        "直说问题和可量化改法",
+        "三明治：夸—提—再夸"
+      ]
+    },
+    {
+      "id": 24,
+      "dimension": "JP",
+      "question": "你的待办清单：",
+      "options": [
+        "有优先级，做完划掉很爽",
+        "堆着，靠记忆和 deadline 排序"
+      ]
+    },
+    {
+      "id": 25,
+      "dimension": "SN",
+      "question": "你更擅长记住：",
+      "options": [
+        "具体细节和发生过的事",
+        "整体印象和「那种感觉」"
+      ]
+    },
+    {
+      "id": 26,
+      "dimension": "TF",
+      "question": "团队庆功宴上，你更想：",
+      "options": [
+        "复盘做对了什么、数据如何",
+        "感谢每个人，气氛到位"
+      ]
+    },
+    {
+      "id": 27,
+      "dimension": "JP",
+      "question": "旅行中突然下雨/改计划：",
+      "options": [
+        "按备选方案 B 执行",
+        "「也行」，当成意外惊喜"
+      ]
+    },
+    {
+      "id": 28,
+      "dimension": "EI",
+      "question": "电量耗尽时，你的充电方式：",
+      "options": [
+        "找朋友出去热闹一下",
+        "独处，做喜欢的事不说话"
+      ]
+    }
+  ]
+}

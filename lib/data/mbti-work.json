@@ -1,0 +1,161 @@
+{
+  "id": "mbti-work-16",
+  "engine": "mbti-binary",
+  "scale": {
+    "min": 1,
+    "max": 2
+  },
+  "slug": "mbti-work",
+  "questionCount": 16,
+  "estimatedMinutes": 5,
+  "source": {
+    "name": "Psyche 职场情境题",
+    "license": "项目内"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "dimension": "EI",
+      "question": "公司团建通知来了，你第一反应：",
+      "options": [
+        "好耶，终于能当面吐槽老板了",
+        "能不能请假，我社恐发作了"
+      ]
+    },
+    {
+      "id": 2,
+      "dimension": "EI",
+      "question": "头脑风暴会上，空气突然安静三秒：",
+      "options": [
+        "我来！先抛个离谱的再说",
+        "等别人开口，我负责补刀"
+      ]
+    },
+    {
+      "id": 3,
+      "dimension": "EI",
+      "question": "午休铃响，你更可能：",
+      "options": [
+        "摇人吃饭，顺便交换八卦",
+        "带饭去楼梯间，享受独处"
+      ]
+    },
+    {
+      "id": 4,
+      "dimension": "EI",
+      "question": "线上 bug 红了一片，你优先：",
+      "options": [
+        "@ 相关同事，语音会议走起",
+        "关麦关窗，自己跟日志单挑"
+      ]
+    },
+    {
+      "id": 5,
+      "dimension": "SN",
+      "question": "老板 PPT 翻到「星辰大海」那页：",
+      "options": [
+        "心里在算：这得几个人干多久",
+        "眼睛亮了：这愿景我能跟"
+      ]
+    },
+    {
+      "id": 6,
+      "dimension": "SN",
+      "question": "写周报，你的风格更像：",
+      "options": [
+        "表格 + 数字，一行一行怼上去",
+        "故事 + 洞察，把本周写成连载"
+      ]
+    },
+    {
+      "id": 7,
+      "dimension": "SN",
+      "question": "新工具培训，你偏好：",
+      "options": [
+        "上手点两下，不会再查文档",
+        "先搞懂原理，再动手不翻车"
+      ]
+    },
+    {
+      "id": 8,
+      "dimension": "SN",
+      "question": "同事甩来一份「颠覆行业」方案：",
+      "options": [
+        "先看成本、排期、谁背锅",
+        "先看有没有意思，细节后面再说"
+      ]
+    },
+    {
+      "id": 9,
+      "dimension": "TF",
+      "question": "要给下属说「这活不行」，你：",
+      "options": [
+        "直说问题和绩效影响，不绕弯",
+        "三明治话术：夸—指出—再夸"
+      ]
+    },
+    {
+      "id": 10,
+      "dimension": "TF",
+      "question": "（假设）裁员名单讨论，你更看重：",
+      "options": [
+        "岗位价值和业务能不能转",
+        "谁更困难、团队会不会散"
+      ]
+    },
+    {
+      "id": 11,
+      "dimension": "TF",
+      "question": "跨部门扯皮现场，你更可能：",
+      "options": [
+        "摆 SLA、合同、邮件截图",
+        "先缓和气氛，再找折中方案"
+      ]
+    },
+    {
+      "id": 12,
+      "dimension": "TF",
+      "question": "客户电话带着哭腔投诉：",
+      "options": [
+        "按流程判定责任归属",
+        "先哄好情绪，再查是不是我们的锅"
+      ]
+    },
+    {
+      "id": 13,
+      "dimension": "JP",
+      "question": "新项目排期，你的习惯：",
+      "options": [
+        "里程碑 + buffer，改计划要开会",
+        "大方向定了，细节边做边飘"
+      ]
+    },
+    {
+      "id": 14,
+      "dimension": "JP",
+      "question": "你的工位/桌面：",
+      "options": [
+        "标签分类，找东西不用想",
+        "乱中有序，只有我自己能导航"
+      ]
+    },
+    {
+      "id": 15,
+      "dimension": "JP",
+      "question": "周五下午突然加塞需求：",
+      "options": [
+        "希望重排计划，别默认我能扛",
+        "能插就插，周末加班也不是没干过"
+      ]
+    },
+    {
+      "id": 16,
+      "dimension": "JP",
+      "question": "年度 OKR 制定，你：",
+      "options": [
+        "年初拆好季度，按月复盘",
+        "形势一变就改重点，灵活为王"
+      ]
+    }
+  ]
+}

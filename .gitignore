@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+node_modules/
+
+# 本地维护脚本（勿提交远程）
+scripts/
+
+# 品红底源图（抠图前，勿提交）
+www/psyche/assets/_source/

@@ -1,0 +1,377 @@
+{
+  "id": "mbti-standard-40",
+  "engine": "mbti-binary",
+  "scale": {
+    "min": 1,
+    "max": 2
+  },
+  "slug": "mbti-40",
+  "questionCount": 40,
+  "estimatedMinutes": 8,
+  "source": {
+    "repo": "https://github.com/luhuadong/mbti-test",
+    "license": "MIT"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "dimension": "EI",
+      "question": "更符合我的陈述是：",
+      "options": [
+        "我说话的速度经常比我想的要快。",
+        "有时我想了很久，却什么也没说。"
+      ]
+    },
+    {
+      "id": 2,
+      "dimension": "JP",
+      "question": "长期计划让我觉得：",
+      "options": [
+        "让一切尽在掌控之中。",
+        "受到束缚。"
+      ]
+    },
+    {
+      "id": 3,
+      "dimension": "TF",
+      "question": "更符合我的陈述是：",
+      "options": [
+        "错误立即引起我的注意。",
+        "我对身边人的情绪很敏感。"
+      ]
+    },
+    {
+      "id": 4,
+      "dimension": "SN",
+      "question": "需要耐心和细心的工作，我觉得如何？",
+      "options": [
+        "大多数让我感到开心。",
+        "对我来说更像是一种折磨。"
+      ]
+    },
+    {
+      "id": 5,
+      "dimension": "JP",
+      "question": "更符合我的陈述是：",
+      "options": [
+        "先工作，再玩耍。",
+        "工作和休闲对我来说并没有那么清楚地分开。"
+      ]
+    },
+    {
+      "id": 6,
+      "dimension": "TF",
+      "question": "在关系中，我非常重视：",
+      "options": [
+        "真相和公平。",
+        "和谐与同理心。"
+      ]
+    },
+    {
+      "id": 7,
+      "dimension": "SN",
+      "question": "当我修修补补或做手工时：",
+      "options": [
+        "我仔细而准确。",
+        "我更多是凭感觉和估计。"
+      ]
+    },
+    {
+      "id": 8,
+      "dimension": "SN",
+      "question": "如果必须选择，我宁愿将自己描述为：",
+      "options": [
+        "现实主义者。",
+        "理想主义者。"
+      ]
+    },
+    {
+      "id": 9,
+      "dimension": "JP",
+      "question": "更符合我的陈述是：",
+      "options": [
+        "我家里一切都井然有序。",
+        "我家里有种“创造性的混乱”。"
+      ]
+    },
+    {
+      "id": 10,
+      "dimension": "JP",
+      "question": "我的优势更多在于：",
+      "options": [
+        "安排得井井有条。",
+        "灵活应对意外情况。"
+      ]
+    },
+    {
+      "id": 11,
+      "dimension": "EI",
+      "question": "在公司时：",
+      "options": [
+        "我很喜欢说。",
+        "我听得多。"
+      ]
+    },
+    {
+      "id": 12,
+      "dimension": "EI",
+      "question": "有问题时：",
+      "options": [
+        "我藏不住话。",
+        "我很少说，就算说也只告诉几个人。"
+      ]
+    },
+    {
+      "id": 13,
+      "dimension": "TF",
+      "question": "我宁愿：",
+      "options": [
+        "被叫作有头脑的人。",
+        "被叫作有感情的人。"
+      ]
+    },
+    {
+      "id": 14,
+      "dimension": "JP",
+      "question": "等客人时：",
+      "options": [
+        "我通常在客人到来前一刻钟完成准备工作。",
+        "第一个客人到达时，我还在准备。"
+      ]
+    },
+    {
+      "id": 15,
+      "dimension": "SN",
+      "question": "我有：",
+      "options": [
+        "对细节的良好感知。",
+        "对细节的拙劣感知。"
+      ]
+    },
+    {
+      "id": 16,
+      "dimension": "JP",
+      "question": "更符合我的陈述是：",
+      "options": [
+        "我想在星期一就知道周末有什么计划。",
+        "我宁愿等着看周末能干啥。"
+      ]
+    },
+    {
+      "id": 17,
+      "dimension": "EI",
+      "question": "我最好的充电方式是：",
+      "options": [
+        "在熟悉的圈子里放松。",
+        "有时间独处。"
+      ]
+    },
+    {
+      "id": 18,
+      "dimension": "SN",
+      "question": "更符合我的陈述是：",
+      "options": [
+        "我会读新设备的使用说明。",
+        "迫不得已时，我才读使用说明。"
+      ]
+    },
+    {
+      "id": 19,
+      "dimension": "JP",
+      "question": "让我很烦的是：",
+      "options": [
+        "有人说话不算话。",
+        "有人不懂变通。"
+      ]
+    },
+    {
+      "id": 20,
+      "dimension": "EI",
+      "question": "更符合我的陈述是：",
+      "options": [
+        "我的情绪大多数时候写在脸上。",
+        "其他人不太容易看得出我心里在想什么。"
+      ]
+    },
+    {
+      "id": 21,
+      "dimension": "JP",
+      "question": "更符合我的陈述是：",
+      "options": [
+        "我通常能很好地管理自己的时间。",
+        "我经常在最后一分钟完成工作。"
+      ]
+    },
+    {
+      "id": 22,
+      "dimension": "SN",
+      "question": "我宁愿有：",
+      "options": [
+        "一种实际的才能。",
+        "哲学的天赋。"
+      ]
+    },
+    {
+      "id": 23,
+      "dimension": "TF",
+      "question": "必须做出决定时，我会在有疑问时依靠：",
+      "options": [
+        "客观事实。",
+        "我的感觉。"
+      ]
+    },
+    {
+      "id": 24,
+      "dimension": "EI",
+      "question": "与他人长时间相处时：",
+      "options": [
+        "我不觉得累。",
+        "我经常觉得很累。"
+      ]
+    },
+    {
+      "id": 25,
+      "dimension": "TF",
+      "question": "我更喜欢哪种工作：",
+      "options": [
+        "需要理性行动和分析思维。",
+        "需要社交技巧和同理心"
+      ]
+    },
+    {
+      "id": 26,
+      "dimension": "EI",
+      "question": "与一群朋友一起旅行时：",
+      "options": [
+        "我几乎可以一直身边有人。",
+        "我不时地需要独处的时间。"
+      ]
+    },
+    {
+      "id": 27,
+      "dimension": "EI",
+      "question": "更符合我的陈述是：",
+      "options": [
+        "我通常让我的想法和感受脱口而出。",
+        "在我输出想法和感受之前，我通常会想很久。"
+      ]
+    },
+    {
+      "id": 28,
+      "dimension": "SN",
+      "question": "更符合我的陈述是：",
+      "options": [
+        "我的想法更多的是关注此时此地。",
+        "我经常思考未来及其可能性。"
+      ]
+    },
+    {
+      "id": 29,
+      "dimension": "SN",
+      "question": "我更喜欢的工作领域是：",
+      "options": [
+        "准确性和事实性知识很重要。",
+        "其中需要许多新概念。"
+      ]
+    },
+    {
+      "id": 30,
+      "dimension": "TF",
+      "question": "下面的表达方式，哪一种更适合我？",
+      "options": [
+        "严厉但公平！",
+        "情大于法。"
+      ]
+    },
+    {
+      "id": 31,
+      "dimension": "JP",
+      "question": "更符合我的陈述是：",
+      "options": [
+        "我通常会很快就去处理不愉快的事情，想赶紧摆脱。",
+        "我经常把不愉快的事情拖了又拖。"
+      ]
+    },
+    {
+      "id": 32,
+      "dimension": "EI",
+      "question": "其他人会形容我为：",
+      "options": [
+        "健谈而开放。",
+        "腼腆而安静。"
+      ]
+    },
+    {
+      "id": 33,
+      "dimension": "EI",
+      "question": "更符合我的陈述是：",
+      "options": [
+        "我相当自然而强烈地体验我的感受。",
+        "我不太容易情绪化。"
+      ]
+    },
+    {
+      "id": 34,
+      "dimension": "JP",
+      "question": "在什么情况下，我的工作效率最高？",
+      "options": [
+        "提前，当我知道我还有足够的时间时。",
+        "最后，时间紧迫。"
+      ]
+    },
+    {
+      "id": 35,
+      "dimension": "TF",
+      "question": "我更喜欢：",
+      "options": [
+        "谈论事实话题。",
+        "谈论人际关系。"
+      ]
+    },
+    {
+      "id": 36,
+      "dimension": "SN",
+      "question": "更符合我的陈述是：",
+      "options": [
+        "我更喜欢关注具体的东西。",
+        "我喜欢思考“生活中的大问题”。"
+      ]
+    },
+    {
+      "id": 37,
+      "dimension": "TF",
+      "question": "我更可能会：",
+      "options": [
+        "惹人生气。",
+        "不怎么坚持我的立场。"
+      ]
+    },
+    {
+      "id": 38,
+      "dimension": "EI",
+      "question": "在空闲时间，我倾向于选择：",
+      "options": [
+        "社交活动或谈话。",
+        "看一本好书或一部好电影。"
+      ]
+    },
+    {
+      "id": 39,
+      "dimension": "JP",
+      "question": "我更可能的工作方式是：",
+      "options": [
+        "有纪律，有条理。",
+        "爆发一股猛劲。"
+      ]
+    },
+    {
+      "id": 40,
+      "dimension": "TF",
+      "question": "更符合我的陈述是：",
+      "options": [
+        "我心大。",
+        "我很容易被冒犯。"
+      ]
+    }
+  ]
+}
