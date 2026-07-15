@@ -23,7 +23,7 @@ core/psyche-Core/
 
 | slug | 名称 | 题数 |
 |------|------|------|
-| `shennong` | 神农学生大混杂 | 20 |
+| `shennong` | 神农学生大混杂（沈农·12维） | 48 + 3彩蛋 |
 | `mbti-quick` | MBTI 速测 | 8 |
 | `mbti-28` / `mbti-40` / `mbti` / `mbti-93` | MBTI 各版本 | 28–93 |
 | `mbti-scene` / `mbti-work` | MBTI 情境 / 职场 | 28 / 16 |
