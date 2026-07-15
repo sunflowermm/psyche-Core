@@ -29,7 +29,7 @@ const CATEGORIES = [
 ]
 
 const TIER = { lite: '轻量', standard: '标准', deep: '深度' }
-const MBTI_ENGINES = new Set(['mbti-oejts', 'mbti-binary', 'mbti'])
+const MBTI_ENGINES = new Set(['mbti-oejts', 'mbti-binary'])
 
 const state = {
   page: 'home',
@@ -76,9 +76,7 @@ async function api(path, opts = {}) {
   }
   const json = await res.json()
   if (!json?.success) throw new Error(json?.message || `HTTP ${res.status}`)
-  if (json.data != null) return json.data
-  const { success, message, code, ...payload } = json
-  return payload
+  return json.data
 }
 
 function show(id, animate = false) {
@@ -180,9 +178,7 @@ function cardHtml(a) {
   const tier = a.tier ? `<span class="tier tier-${a.tier}">${TIER[a.tier] || a.tier}</span>` : ''
   const preview = a.preview || `/psyche/assets/covers/${a.slug}.svg`
   const isLogo = preview.includes('shennong')
-  const thumb = preview
-    ? `<div class="card-thumb${isLogo ? ' card-thumb-logo' : ''}"><img src="${assetUrl(preview)}" alt="" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='${assetUrl(`/psyche/assets/covers/${a.slug}.svg`)}'"></div>`
-    : `<div class="card-thumb placeholder"><span>${a.shortName || a.name.slice(0, 2)}</span></div>`
+  const thumb = `<div class="card-thumb${isLogo ? ' card-thumb-logo' : ''}"><img src="${assetUrl(preview)}" alt="" loading="lazy" decoding="async"></div>`
   const tags = [...(a.tags || []).slice(0, 2), ...(a.hasArt ? ['立绘'] : [])]
     .map((t) => `<span class="tag${t === '立绘' ? ' art' : ''}">${t}</span>`).join('')
   return `<article class="card" data-slug="${a.slug}" data-category="${a.category || ''}">
@@ -245,11 +241,11 @@ function renderHistory() {
     </div>
     <div class="hist-list">${items.map((h) => `
       <article class="hist-card" data-id="${h.id}">
-        ${h.image || h.render?.image ? `<img class="hist-thumb" src="${assetUrl(h.render?.image || h.image)}" alt="">` : '<div class="hist-thumb ph"></div>'}
+        ${h.render?.image ? `<img class="hist-thumb" src="${assetUrl(h.render.image)}" alt="">` : '<div class="hist-thumb ph"></div>'}
         <div class="hist-body">
           <p class="hist-title">${h.assessmentName || h.slug}</p>
-          <p class="hist-type">${h.render?.displayName || h.displayName || h.type || ''}</p>
-          <p class="hist-meta">${fmtTime(h.completedAt)}${(h.render?.similarity ?? h.similarity) != null ? ` · 匹配 ${h.render?.similarity ?? h.similarity}%` : ''}</p>
+          <p class="hist-type">${h.render?.displayName || h.render?.type || ''}</p>
+          <p class="hist-meta">${fmtTime(h.completedAt)}${h.render?.similarity != null ? ` · 匹配 ${h.render.similarity}%` : ''}</p>
         </div>
         <button type="button" class="hist-del" data-del="${h.id}" title="删除">×</button>
       </article>`).join('')}</div>`
@@ -393,7 +389,7 @@ async function startQuiz(slug) {
 }
 
 function drawRadar(canvas, dims) {
-  if (!canvas || !dims.length) return
+  if (!canvas || !dims?.length) return
   const ctx = canvas.getContext('2d')
   const { width: w, height: h } = canvas
   const cx = w / 2
@@ -552,27 +548,9 @@ function renderResultView({ render, result, engine, stored = false }) {
 }
 
 function showStoredResult(item) {
-  const render = item.render || {
-    type: item.type,
-    displayName: item.displayName,
-    subtitle: item.subtitle,
-    oneliner: item.oneliner,
-    color: item.color,
-    image: item.image,
-    similarity: item.similarity,
-    dimensions: item.dimensions,
-    description: item.description,
-    strengths: item.strengths,
-    weaknesses: item.weaknesses,
-    spirit: item.spirit,
-    matchDetails: item.matchDetails,
-    hiddenTags: item.hiddenTags,
-    rarity: item.rarity,
-    isSpecial: item.isSpecial,
-    secondaryType: item.secondaryType
-  }
+  if (!item.render) return
   state.slug = item.slug
-  renderResultView({ render, result: item, engine: item.engine, stored: true })
+  renderResultView({ render: item.render, result: item, engine: item.engine, stored: true })
 }
 
 function persistResult(payload) {

@@ -26,18 +26,13 @@ export function setPrefs(patch) {
 }
 
 export function listHistory() {
-  return read(KEY, { version: 1, items: [] }).items
-}
-
-function newId() {
-  if (globalThis.crypto?.randomUUID) return globalThis.crypto.randomUUID()
-  return `h${Date.now().toString(36)}${Math.random().toString(36).slice(2, 9)}`
+  return read(KEY, { version: 1, items: [] }).items || []
 }
 
 export function saveResult(entry) {
   const box = read(KEY, { version: 1, items: [] })
   const item = {
-    id: newId(),
+    id: crypto.randomUUID(),
     completedAt: new Date().toISOString(),
     ...entry
   }

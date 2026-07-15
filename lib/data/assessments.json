@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "assessments": [
     {
       "id": "shennong-mix",
@@ -139,7 +139,7 @@
       "source": { "name": "Psyche 职场题", "license": "项目内" }
     },
     {
-      "id": "sbti-pro",
+      "id": "sbti",
       "slug": "sbti",
       "name": "SBTI 电子灵魂（41题）",
       "shortName": "SBTI",
@@ -214,7 +214,6 @@
       "category": "personality",
       "tier": "standard",
       "engine": "bigfive-ipip50",
-      "dataFile": "bigfive-ipip50-zh.json",
       "dataFiles": { "zh": "bigfive-ipip50-zh.json", "en": "bigfive-ipip50-en.json" },
       "questionCount": 50,
       "estimatedMinutes": 10,
@@ -232,7 +231,6 @@
       "category": "personality",
       "tier": "deep",
       "engine": "bigfive-ipip50",
-      "dataFile": "bigfive-ipip120-zh.json",
       "dataFiles": { "zh": "bigfive-ipip120-zh.json", "en": "bigfive-ipip120-en.json" },
       "questionCount": 120,
       "estimatedMinutes": 25,

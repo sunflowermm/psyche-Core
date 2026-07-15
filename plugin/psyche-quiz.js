@@ -41,13 +41,14 @@ export class PsycheQuiz extends plugin {
 
   async help() {
     return this.reply([
-      '#测评 mbti — MBTI 32题',
-      '#测评 mbti-quick — MBTI 速测',
-      '#测评 sbti — SBTI 电子灵魂 41题（含立绘）',
-      '#测评 cbti — 程序员行为类型 30题（含立绘）',
+      '#测评 mbti — MBTI OEJTS 32题',
+      '#测评 mbti-quick — MBTI 速测 8题',
+      '#测评 sbti — SBTI 电子灵魂',
+      '#测评 cbti — 程序员行为类型',
       '#测评 bigfive — 大五 IPIP-50',
+      '#测评 shennong — 神农校园混测',
       '',
-      '网页：/psyche/index.html（端口见 server 配置）'
+      '网页：/psyche/ · #测评 查看全部 · #取消测评'
     ].join('\n'))
   }
 
@@ -105,17 +106,22 @@ export class PsycheQuiz extends plugin {
     const updated = getSession(session.id)
 
     if (updated.index >= updated.questions.length) {
-      const cfg = await getConfig()
-      const { text, render } = await submitSession(updated.id)
-      this.finish('psycheQuiz')
-      if (cfg.renderResults !== false && this.e.runtime) {
-        const img = await tryRenderResult(this.e.runtime, render)
-        if (img) {
-          await this.reply(img)
-          return this.reply(`${text}\n\n感谢完成！`, true, { at: true })
+      try {
+        const cfg = await getConfig()
+        const { text, render } = await submitSession(updated.id)
+        this.finish('psycheQuiz')
+        if (cfg.renderResults !== false && this.e.runtime) {
+          const img = await tryRenderResult(this.e.runtime, render)
+          if (img) {
+            await this.reply(img)
+            return this.reply(`${text}\n\n感谢完成！`, true, { at: true })
+          }
         }
+        return this.reply(`${text}\n\n感谢完成！`, true, { at: true })
+      } catch (err) {
+        this.finish('psycheQuiz')
+        return this.reply(`计算失败：${err.message}`)
       }
-      return this.reply(`${text}\n\n感谢完成！`, true, { at: true })
     }
 
     const next = updated.questions[updated.index]

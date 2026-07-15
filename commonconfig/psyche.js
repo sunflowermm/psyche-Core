@@ -36,24 +36,10 @@ export default class PsycheConfig extends ConfigBase {
             default: [],
             component: 'Tags'
           },
-          saveHistory: {
-            type: 'boolean',
-            label: '保存历史',
-            description: '是否在内存中保留最近测评结果（重启后清空）',
-            default: true,
-            component: 'Switch'
-          },
           renderResults: {
             type: 'boolean',
             label: '渲染结果图',
             description: 'Bot 完成测评后生成结果卡片图片（需渲染器）',
-            default: true,
-            component: 'Switch'
-          },
-          showSourceCredit: {
-            type: 'boolean',
-            label: '显示数据来源',
-            description: '结果页是否附带开源题库出处说明',
             default: true,
             component: 'Switch'
           }

@@ -4,10 +4,9 @@
 import { HttpResponse } from '../../../src/utils/http-utils.js'
 import {
   getConfig, resolveEnabled, startQuizSession, submitSession,
-  getAssessment, loadAssessmentData, getQuestionSet, scoreAssessment,
+  getAssessment, loadAssessmentData, getQuestionSet,
   getSession, answerQuestion, rewindSession, sessionProgress, abandonSession, getHistory, cleanupExpired
 } from '../lib/psyche-service.js'
-import { enrichResult, buildRenderPayload } from '../lib/assets.js'
 import { getWebVersion } from '../lib/web-version.js'
 
 const uid = (req) => req.body?.userId || req.query?.userId || req.headers['x-psyche-user'] || 'anonymous'
@@ -95,19 +94,6 @@ export default {
         const out = await submitSession(req.params.sessionId, { hidden: req.body?.hidden })
         return HttpResponse.success(res, out)
       }, 'psyche.session.submit')
-    },
-    {
-      method: 'POST', path: '/api/psyche/score', systemAuth: false,
-      handler: HttpResponse.asyncHandler(async (req, res) => {
-        const cfg = await getConfig()
-        const { slug, answers, lang, hidden } = req.body || {}
-        const a = getAssessment(slug)
-        if (!a) return HttpResponse.notFound(res, '测评不存在')
-        const data = loadAssessmentData(a, lang || cfg.defaultLang || 'zh')
-        const result = enrichResult(await scoreAssessment(a, data, answers, { hidden }), a)
-        const render = buildRenderPayload(result, a, lang || cfg.defaultLang || 'zh', hidden)
-        return HttpResponse.success(res, { result, render })
-      }, 'psyche.score')
     },
     {
       method: 'DELETE', path: '/api/psyche/sessions/:sessionId', systemAuth: false,

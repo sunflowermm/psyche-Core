@@ -5,5 +5,4 @@ sessionTtlMinutes: 30
 
 enabledAssessments: []
 
-saveHistory: true
 renderResults: true
