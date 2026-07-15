@@ -1,4 +1,4 @@
-import plugin from '../../../src/infrastructure/plugins/plugin.js'
+import PluginBase from '../../../src/infrastructure/plugins/plugin-base.js'
 import {
   getConfig, resolveSlug, resolveEnabled, startQuizSession, submitSession, tryRenderResult,
   getSession, answerQuestion, abandonSession, formatQuestionMessage, validateAnswer
@@ -6,7 +6,7 @@ import {
 
 const SESSION_TIMEOUT_SEC = 600
 
-export class PsycheQuiz extends plugin {
+export class PsycheQuiz extends PluginBase {
   constructor() {
     super({
       name: '心理测评',
@@ -28,8 +28,8 @@ export class PsycheQuiz extends plugin {
   }
 
   async listTests() {
-    const cfg = await getConfig()
-    const items = resolveEnabled(cfg)
+    const runtimeConfig = await getConfig()
+    const items = resolveEnabled(runtimeConfig)
     return this.reply([
       '【心理测评】',
       ...items.map((a) => `· #测评 ${a.slug} — ${a.name}（${a.questionCount}题）`),
@@ -57,8 +57,8 @@ export class PsycheQuiz extends plugin {
     const slug = resolveSlug(raw)
     if (!slug) return this.listTests()
 
-    const cfg = await getConfig()
-    if (!resolveEnabled(cfg).some((a) => a.slug === slug || a.id === slug)) {
+    const runtimeConfig = await getConfig()
+    if (!resolveEnabled(runtimeConfig).some((a) => a.slug === slug || a.id === slug)) {
       return this.reply(`未找到或未启用「${raw}」，发送 #测评 查看列表。`)
     }
 
@@ -66,8 +66,8 @@ export class PsycheQuiz extends plugin {
       const { session, assessment } = await startQuizSession({
         userId: this.getUserId(),
         slug,
-        lang: cfg.defaultLang || 'zh',
-        ttlMs: (cfg.sessionTtlMinutes || 30) * 60 * 1000
+        lang: runtimeConfig.defaultLang || 'zh',
+        ttlMs: (runtimeConfig.sessionTtlMinutes || 30) * 60 * 1000
       })
       this.e._psycheSessionId = session.id
       this.setContext('psycheQuiz', false, SESSION_TIMEOUT_SEC, '测评已超时')
@@ -107,10 +107,10 @@ export class PsycheQuiz extends plugin {
 
     if (updated.index >= updated.questions.length) {
       try {
-        const cfg = await getConfig()
+        const runtimeConfig = await getConfig()
         const { text, render } = await submitSession(updated.id)
         this.finish('psycheQuiz')
-        if (cfg.renderResults !== false && this.e.runtime) {
+        if (runtimeConfig.renderResults !== false && this.e.runtime) {
           const img = await tryRenderResult(this.e.runtime, render)
           if (img) {
             await this.reply(img)

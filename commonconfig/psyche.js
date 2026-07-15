@@ -14,7 +14,7 @@ export default class PsycheConfig extends ConfigBase {
           defaultLang: {
             type: 'string',
             label: '默认语言',
-            description: '测评界面与 Bot 回复语言',
+            description: '测评界面与 AgentRuntime 回复语言',
             enum: ['zh', 'en'],
             default: 'zh',
             component: 'Select'
@@ -39,7 +39,7 @@ export default class PsycheConfig extends ConfigBase {
           renderResults: {
             type: 'boolean',
             label: '渲染结果图',
-            description: 'Bot 完成测评后生成结果卡片图片（需渲染器）',
+            description: 'AgentRuntime 完成测评后生成结果卡片图片（需渲染器）',
             default: true,
             component: 'Switch'
           }

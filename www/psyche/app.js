@@ -72,7 +72,7 @@ async function api(path, opts = {}) {
       ...opts
     })
   } catch {
-    throw new Error('无法连接服务，请确认 Bot 已启动')
+    throw new Error('无法连接服务，请确认 AgentRuntime 已启动')
   }
   const json = await res.json()
   if (!json?.success) throw new Error(json?.message || `HTTP ${res.status}`)

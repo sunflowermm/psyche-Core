@@ -1,6 +1,6 @@
 # psyche-Core
 
-XRK-AGT 心理测评 Core：MBTI 多版本、SBTI/CBTI、大五 IPIP、神农校园混测；含 Web 测评页与 Bot 对话。
+XRK-AGT 心理测评 Core：MBTI 多版本、SBTI/CBTI、大五 IPIP、神农校园混测；含 Web 测评页与 AgentRuntime 对话。
 
 ## 目录
 
@@ -8,7 +8,7 @@ XRK-AGT 心理测评 Core：MBTI 多版本、SBTI/CBTI、大五 IPIP、神农校
 core/psyche-Core/
 ├── commonconfig/     配置 Schema
 ├── default/          默认配置
-├── plugin/           Bot 指令
+├── plugin/           AgentRuntime 指令
 ├── http/             REST API
 ├── www/psyche/       Web 测评页
 └── lib/
@@ -33,7 +33,7 @@ core/psyche-Core/
 
 题库来源与许可见 [`lib/data/SOURCES.md`](lib/data/SOURCES.md)。
 
-## Bot
+## AgentRuntime
 
 | 指令 | 说明 |
 |------|------|

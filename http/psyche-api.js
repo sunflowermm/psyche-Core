@@ -20,10 +20,10 @@ export default {
       method: 'GET', path: '/api/psyche/assessments', systemAuth: false,
       handler: HttpResponse.asyncHandler(async (req, res) => {
         cleanupExpired()
-        const cfg = await getConfig()
+        const runtimeConfig = await getConfig()
         return HttpResponse.success(res, {
-          assessments: resolveEnabled(cfg),
-          defaultLang: cfg.defaultLang || 'zh',
+          assessments: resolveEnabled(runtimeConfig),
+          defaultLang: runtimeConfig.defaultLang || 'zh',
           webVersion: getWebVersion()
         })
       }, 'psyche.list')
@@ -31,10 +31,10 @@ export default {
     {
       method: 'GET', path: '/api/psyche/assessments/:slug', systemAuth: false,
       handler: HttpResponse.asyncHandler(async (req, res) => {
-        const cfg = await getConfig()
+        const runtimeConfig = await getConfig()
         const a = getAssessment(req.params.slug)
-        if (!a || !resolveEnabled(cfg).some((x) => x.id === a.id)) return HttpResponse.notFound(res, '测评不存在')
-        const lang = req.query.lang || cfg.defaultLang || 'zh'
+        if (!a || !resolveEnabled(runtimeConfig).some((x) => x.id === a.id)) return HttpResponse.notFound(res, '测评不存在')
+        const lang = req.query.lang || runtimeConfig.defaultLang || 'zh'
         const data = loadAssessmentData(a, lang)
         const questions = getQuestionSet(a, data, lang)
         return HttpResponse.success(res, {
@@ -46,12 +46,12 @@ export default {
     {
       method: 'POST', path: '/api/psyche/sessions', systemAuth: false,
       handler: HttpResponse.asyncHandler(async (req, res) => {
-        const cfg = await getConfig()
+        const runtimeConfig = await getConfig()
         const { slug, lang: bodyLang } = req.body || {}
         if (!slug) return HttpResponse.validationError(res, '缺少 slug')
         const { session, assessment, data } = await startQuizSession({
-          userId: uid(req), slug, lang: bodyLang || cfg.defaultLang || 'zh',
-          ttlMs: (cfg.sessionTtlMinutes || 30) * 60 * 1000
+          userId: uid(req), slug, lang: bodyLang || runtimeConfig.defaultLang || 'zh',
+          ttlMs: (runtimeConfig.sessionTtlMinutes || 30) * 60 * 1000
         })
         return HttpResponse.success(res, {
           sessionId: session.id,
