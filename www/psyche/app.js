@@ -1,11 +1,18 @@
 import {
   getPrefs, setPrefs, listHistory, saveResult, removeResult, clearHistory, mbtiImage
 } from './store.js'
-import { unwrapSuccess } from '/shared/xrk-web-compat.js'
 
 const API = '/api/psyche'
 const $ = (s, r = document) => r.querySelector(s)
 const $$ = (s, r = document) => [...r.querySelectorAll(s)]
+
+/** 与 /xrk/modules/web-compat.js#unwrapSuccess 同语义（本页自包含，不依赖 /shared） */
+function unwrapSuccess(json) {
+  if (!json?.success) throw new Error(json?.message || '请求失败')
+  if (json.data !== undefined) return json.data
+  const { success: _ok, message: _msg, ...rest } = json
+  return rest
+}
 
 function assetUrl(path) {
   if (!path) return ''

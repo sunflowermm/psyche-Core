@@ -1,11 +1,14 @@
-import { randomId } from '/shared/xrk-web-compat.js'
-
 const KEY = 'psyche-history-v1'
 const PREFS = 'psyche-prefs-v1'
 const MAX = 50
 
+/** 兼容旧 WebView（与 /xrk/modules/web-compat.js#randomId 同语义） */
 function newId() {
-  return randomId('p')
+  try {
+    const uuid = globalThis.crypto?.randomUUID
+    if (typeof uuid === 'function') return uuid.call(globalThis.crypto)
+  } catch { /* fall through */ }
+  return `p_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 11)}`
 }
 
 function read(key, fallback) {
