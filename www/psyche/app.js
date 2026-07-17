@@ -76,7 +76,10 @@ async function api(path, opts = {}) {
   }
   const json = await res.json()
   if (!json?.success) throw new Error(json?.message || `HTTP ${res.status}`)
-  return json.data
+  // HttpResponse.success 对普通对象会 Object.assign 到顶层（无 data 包裹）
+  if (json.data !== undefined) return json.data
+  const { success: _ok, message: _msg, ...payload } = json
+  return payload
 }
 
 function show(id, animate = false) {
