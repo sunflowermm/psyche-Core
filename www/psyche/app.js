@@ -6,7 +6,7 @@ const API = '/api/psyche'
 const $ = (s, r = document) => r.querySelector(s)
 const $$ = (s, r = document) => [...r.querySelectorAll(s)]
 
-/** 与 /xrk/modules/web-compat.js#unwrapSuccess 同语义（本页自包含，不依赖 /shared） */
+/** 与 web-compat.js#unwrapSuccess 同语义（产品页内联，零跨应用依赖） */
 function unwrapSuccess(json) {
   if (!json?.success) throw new Error(json?.message || '请求失败')
   if (json.data !== undefined) return json.data

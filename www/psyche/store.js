@@ -2,7 +2,7 @@ const KEY = 'psyche-history-v1'
 const PREFS = 'psyche-prefs-v1'
 const MAX = 50
 
-/** 兼容旧 WebView（与 /xrk/modules/web-compat.js#randomId 同语义） */
+/** 兼容旧 WebView（与 web-compat.js#randomId 同语义，产品页内联） */
 function newId() {
   try {
     const uuid = globalThis.crypto?.randomUUID
