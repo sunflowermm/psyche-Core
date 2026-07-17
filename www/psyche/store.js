@@ -1,6 +1,12 @@
+import { randomId } from '/shared/xrk-web-compat.js'
+
 const KEY = 'psyche-history-v1'
 const PREFS = 'psyche-prefs-v1'
 const MAX = 50
+
+function newId() {
+  return randomId('p')
+}
 
 function read(key, fallback) {
   try {
@@ -32,7 +38,7 @@ export function listHistory() {
 export function saveResult(entry) {
   const box = read(KEY, { version: 1, items: [] })
   const item = {
-    id: crypto.randomUUID(),
+    id: newId(),
     completedAt: new Date().toISOString(),
     ...entry
   }
